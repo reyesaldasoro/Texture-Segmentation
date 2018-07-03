@@ -11,12 +11,12 @@ Abhir Bhalerao</h2>
 
 <p>
     Test data, Matlab code and data sets and user manuals
-    
+
 </p>
 
 <br />
 <h3>
-    
+
 <b>Reyes-Aldasoro,
 C.C.</b>, and A. Bhalerao, <span style="font-style: italic;">Volumetric
 Texture Segmentation by
@@ -64,7 +64,7 @@ Filtering, Multiresolution, Texture Segmentation, Feature Selection</span>
 </p>
 
 <p> IMPORTANT </p>
-<p> Many of these routines were developed some time ago, that is many versions of Matlab have gone through. Some m-files were not 
+<p> Many of these routines were developed some time ago, that is many versions of Matlab have gone through. Some m-files were not
     available from Matlab at that time (like mode) and thus I created my own. Be careful as some routines may not be compatible with
     the most recent versions of Matlab.
 </p>
@@ -101,8 +101,8 @@ from here, and<br>
 dataFeats - two filtered features <br>
 </td>
 <td valign="top" width="20%">
-      
-![Screenshot](orientPatt3D.gif)
+
+![Screenshot](Figures/orientPatt3D.gif)
 <br>
 </td>
 </tr>
@@ -121,7 +121,7 @@ mask(:,1:16,:)=2;<br>
 </td>
 <td valign="top" width="20%">
 
-![Screenshot](gauss3D.gif)
+![Screenshot](Figures/gauss3D.gif)
 <br>
 </td>
 </tr>
@@ -136,7 +136,7 @@ Randen's webpage:<br>
 </td>
 <td valign="top" width="20%">
 
-![Screenshot](fig11f.gif)
+![Screenshot](Figures/fig11f.gif)
 <br>
 </td>
 </tr>
@@ -147,7 +147,7 @@ Randen's webpage:<br>
 </td>
 <td valign="top">
 
-![Screenshot](mask.gif)<br>
+![Screenshot](Figures/mask.gif)<br>
 </td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@ Randen's webpage:<br>
 </td>
 <td valign="top">
 
-![Screenshot](phantom.jpg)
+![Screenshot](Figures/phantom.jpg)
 <br>
 </td>
 </tr>
@@ -187,9 +187,9 @@ Main Programs<br>
 </td>
 <td valign="top"> Multi-resolution Volumetric Texture
 Segmentation main program<br>
-This program Classifies in a hierarchical methodology that climbs 
+This program Classifies in a hierarchical methodology that climbs
 over a Quad Tree up to a desired level (levsP), classifies with
-extra positional features, and then propagates downwards with the 
+extra positional features, and then propagates downwards with the
 boundaries filtered with Pyramidal butterfly filters <br>
 
 </td>
@@ -198,8 +198,8 @@ boundaries filtered with Pyramidal butterfly filters <br>
 <td valign="top" width="20%">sopy</a><br>
 </td>
 <td valign="top">sopy transforms data into the Fourier Domain and
-then 
-filters it with a Second Orientation Pyramid tessellation 
+then
+filters it with a Second Orientation Pyramid tessellation
 with truncated Gaussians in different frequency-orientation positions
 <br>
 </td>
@@ -405,8 +405,8 @@ sliding fashion<br>
 <h2>A Graphic Example of Subband filtering</h2>
 
  <br>
- 
-![Screenshot](MVTS_IPtr_img_2.jpg)
+
+![Screenshot](Figures/MVTS_IPtr_img_2.jpg)
 <br>
 <br>
 <br>
@@ -415,7 +415,7 @@ sliding fashion<br>
 <br>
 <div align="center">
 
-![Screenshot](res1.gif)
+![Screenshot](Figures/res1.gif)
  <br>
 </div>
 <br>
@@ -428,12 +428,12 @@ sliding fashion<br>
 <td valign="top" width="50%"> Original Images (from Randen)<br>
 <a href="http://www.ux.uis.no/%7Etranden/">http://www.ux.uis.no/~tranden/</a>
 
-![Screenshot](res2.gif)
+![Screenshot](Figures/res2.gif)
   <br>
 </td>
 <td valign="top" width="50%"> Classification with M-VTS<br>
 
-![Screenshot](res3.jpg)
+![Screenshot](Figures/res3.jpg)
   <br>
 </td>
 </tr>
@@ -442,13 +442,13 @@ sliding fashion<br>
 images<br>
 <br>
 
-![Screenshot](res4.jpg)
+![Screenshot](Figures/res4.jpg)
   <br>
 </td>
 <td valign="top" width="50%">Correctly classified pixels in white<br>
 <br>
 
-![Screenshot](res5.jpg)
+![Screenshot](Figures/res5.jpg)
   <br>
 </td>
 </tr>
@@ -457,27 +457,27 @@ images<br>
 <br>
 
 <div align="center"> <br>
- 
+
 <table border="1" cellpadding="2" cellspacing="2" width="80%">
 <tbody>
 <tr>
 <td valign="top">
 
-![Screenshot](res6.gif)
+![Screenshot](Figures/res6.gif)
  <br>
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-![Screenshot](res7.gif)
+![Screenshot](Figures/res7.gif)
  <br>
 </td>
 </tr>
 <tr>
-<td valign="top"> 
+<td valign="top">
 
-![Screenshot](res8.gif)
+![Screenshot](Figures/res8.gif)
  <br>
 </td>
 </tr>
@@ -489,13 +489,11 @@ images<br>
 <br>
 <br>
 
-![Screenshot](MVTS_IPtr_img_30.jpg)
+![Screenshot](Figures/MVTS_IPtr_img_30.jpg)
  <br>
 <br>
 
-![Screenshot](MVTS_IPtr_img_31.jpg)
+![Screenshot](Figures/MVTS_IPtr_img_31.jpg)
 <br>
 <br>
 <br>
-
-
