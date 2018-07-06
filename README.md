@@ -103,7 +103,8 @@ Display 2 levels of the pyramid (2:14) in figure 1
 
 ``` {.codeinput}
         surfSOP (figure11SOP (:,:,2:14), 1 );
-        ```
+```
+
         
 ![Screenshot](Figures/rand_f2_14.gif)
 
