@@ -73,6 +73,41 @@ Filtering, Multiresolution, Texture Segmentation, Feature Selection</span>
 <h2>Data and programs: everything is in <a href="http://www.mathworks.com">matlab</a>  format.
 </h2>
 
+
+<h2>Short Tutorial</h2>
+
+
+
+Filter the image figure11 with the SOP filtering up to the third level of the pyramid (21 features)
+
+``` {.codeinput}
+        figure11SOP     = sopy     (figure11, 3);
+        [512x512x21]                    [512x512]
+```
+
+Quad Tree: reduce and expand through the Quad Tree
+
+``` {.codeinput}
+                    figure11_1     = reduceu     (figure11);
+                    [256x256]                            [512x512]
+
+                    figure11_2     = reduceu     (figure11_1);
+                    [128x128]                         [256x256]                           
+
+                    figure11_1b   = expandu     (figure11_2);
+                    [256x256]                            [128x128]                                                   
+```
+
+
+Display 2 levels of the pyramid (2:14) in figure 1
+
+``` {.codeinput}
+        surfSOP (figure11SOP (:,:,2:14), 1 );
+```
+        
+![Screenshot](Figures/rand_f2_14.gif)
+
+
 <br>
 <div align="center"><br>
 Data<br>
