@@ -36,8 +36,8 @@ colormap gray
 for counterClasses = 1:numClasses
     for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
         for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
-            currentSection =(trainRanden{currentCase}(counterR:counterR+imageSize(1)-1,counterC:counterC+imageSize(2)-1,counterClasses));
-
+            currentSection  = uint8(trainRanden{currentCase}(counterR:counterR+imageSize(1)-1,counterC:counterC+imageSize(2)-1,counterClasses));
+            currentLabel    = uint8(ones(32)*counterClasses);
             % Display
                     imagesc(currentSection)
                     title(strcat('Class = ',num2str(counterClasses),32,32,'(',num2str(counterR),'-',num2str(counterC),')'))
@@ -46,8 +46,8 @@ for counterClasses = 1:numClasses
                     % Save
                     fName = strcat('Texture_Randen_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
                     fNameL = strcat('Texture_Randen_Label_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
-            imwrite(strcat('trainingImages\',fName),currentSection)
-            imwrite(strcat('trainingImages\',fNameL),currentSection)
+            imwrite(currentSection,strcat('trainingImages\',fName))
+            imwrite(currentLabel,strcat('trainingLabels\',fNameL))
             
 
         end
@@ -55,8 +55,3 @@ for counterClasses = 1:numClasses
 end
 %set(gca,'position',[0 0 1 1 ]);axis off
 %%
-fig = gcf;
-fig.PaperUnits = 'points';
-fig.PaperPosition = [1 1 32 32];
-print('test3','-dpng','-r0')
-%    set(gca,'position',[0 0 1 1 ]);axis off

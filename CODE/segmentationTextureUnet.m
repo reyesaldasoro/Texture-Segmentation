@@ -33,9 +33,9 @@ stepOverlap             = 0;%16;
 figure(1)
 colormap gray
 [rows,cols,numClasses]     = size(trainRanden{currentCase});
-for counterClasses = 5%:numClasses
-    for counterR=1%:imageSize(1)-stepOverlap:rows-imageSize(1)
-        for counterC=1%:imageSize(2)-stepOverlap:cols-imageSize(2)
+for counterClasses = 1:numClasses
+    for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
+        for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
             currentSection  = uint8(trainRanden{currentCase}(counterR:counterR+imageSize(1)-1,counterC:counterC+imageSize(2)-1,counterClasses));
             currentLabel    = uint8(ones(32)*counterClasses);
             % Display
@@ -55,8 +55,3 @@ for counterClasses = 5%:numClasses
 end
 %set(gca,'position',[0 0 1 1 ]);axis off
 %%
-fig = gcf;
-fig.PaperUnits = 'points';
-fig.PaperPosition = [1 1 32 32];
-print('test3','-dpng','-r0')
-%    set(gca,'position',[0 0 1 1 ]);axis off
