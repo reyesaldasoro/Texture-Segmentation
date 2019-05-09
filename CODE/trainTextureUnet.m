@@ -25,6 +25,12 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 %%
 imageDir = fullfile(dataSetDir,'trainingImages');
 labelDir = fullfile(dataSetDir,'trainingLabels');
+%%
+
+imageSize = [256 256];
+numClasses = 5;
+encoderDepth = 3;
+lgraph = unetLayers(imageSize,numClasses,'EncoderDepth',encoderDepth);
 
 %%
 imds = imageDatastore(imageDir);
@@ -34,7 +40,7 @@ labelIDs   = [5 4 3 2 1];
 pxds = pixelLabelDatastore(labelDir,classNames,labelIDs);
 %%
 imageSize = [32 32];
-numClasses = 5;
+%numClasses = 5;
 lgraph = unetLayers(imageSize, numClasses);
 %%
 
@@ -46,7 +52,7 @@ options = trainingOptions('sgdm','InitialLearnRate',1e-3, ...
 net = trainNetwork(ds,lgraph,options);
 
 %%
-save textureNet net
+save textureNet2 net
 
 %%
 
