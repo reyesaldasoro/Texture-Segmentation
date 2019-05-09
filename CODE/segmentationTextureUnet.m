@@ -28,16 +28,32 @@ currentCase             = 1;
 
 % Partition to create a large number of images to train 
 imageSize               = [32 32];
-stepOverlap             = 16;
+stepOverlap             = 0;%16;
 %%
+figure(1)
+colormap gray
+[rows,cols,numClasses]     = size(trainRanden{currentCase});
+for counterClasses = 1:numClasses
+    for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
+        for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
+            currentSection =(trainRanden{currentCase}(counterR:counterR+imageSize(1)-1,counterC:counterC+imageSize(2)-1,counterClasses));
 
-[rows,cols,classes]     = size(trainRanden{currentCase});
+            % Display
+                    imagesc(currentSection)
+                    title(strcat('Class = ',num2str(counterClasses),32,32,'(',num2str(counterR),'-',num2str(counterC),')'))
+                    pause(0.01)
+                    drawnow;
+                    % Save
+                    fName = strcat('Texture_Randen_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png')
+            imwrite(currentSection,fName)
 
-for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
-    for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
-%         imagesc(trainRanden{currentCase}(counterR:counterR+imageSize(1),counterC:counterC+imageSize(2),1))
-%         title(strcat(num2str(counterR),'-',num2str(counterC)))
-%         pause(0.1)
-%         drawnow;        
+        end
     end
 end
+%set(gca,'position',[0 0 1 1 ]);axis off
+%%
+fig = gcf;
+fig.PaperUnits = 'points';
+fig.PaperPosition = [1 1 32 32];
+print('test3','-dpng','-r0')
+%    set(gca,'position',[0 0 1 1 ]);axis off
