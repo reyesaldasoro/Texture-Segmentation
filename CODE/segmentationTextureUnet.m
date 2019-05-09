@@ -7,13 +7,12 @@ clc
 if strcmp(filesep,'/')
     % Running in Mac
 %    load('/Users/ccr22/OneDrive - City, University of London/Acad/ARC_Grant/Datasets/DataARC_Datasets_2019_05_03.mat')
-    cd ('/Users/ccr22/OneDrive - City, University of London/Acad/Research/texture')
+    cd ('/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE')
 %    baseDir                             = 'Metrics_2019_04_25/metrics/';
 else
     % running in windows
-    cd ('D:\OneDrive - City, University of London\Acad\Research\texture')
+    cd ('D:\Acad\GitHub\Texture-Segmentation\CODE')
 end
-
 %%
 load randenData
 
