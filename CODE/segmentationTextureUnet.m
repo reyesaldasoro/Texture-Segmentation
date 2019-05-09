@@ -21,12 +21,24 @@ load randenData
 % trainRanden   -  cell with the training data for each image
 % maskRanden    -  cell with the masks for each of the composite images
 
-
+clear resRanden stdsRanden meansRanden fname ind edge error*
 %% Augmentation of training data for classification with U-Net
 
 % select one of the composite images
-currentCase = 1;
+currentCase             = 1;
 
 % Partition to create a large number of images to train 
-imageSize = [32 32];
+imageSize               = [32 32];
+stepOverlap             = 16;
+%%
 
+[rows,cols,classes]     = size(trainRanden{currentCase});
+
+for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
+    for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
+%         imagesc(trainRanden{currentCase}(counterR:counterR+imageSize(1),counterC:counterC+imageSize(2),1))
+%         title(strcat(num2str(counterR),'-',num2str(counterC)))
+%         pause(0.1)
+%         drawnow;        
+    end
+end
