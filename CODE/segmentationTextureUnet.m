@@ -6,11 +6,11 @@ clc
 %% Read the files that have been stored in the current folder
 if strcmp(filesep,'/')
     % Running in Mac
-%    load('/Users/ccr22/OneDrive - City, University of London/Acad/ARC_Grant/Datasets/DataARC_Datasets_2019_05_03.mat')
-    cd ('/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE')
-%    baseDir                             = 'Metrics_2019_04_25/metrics/';
+    cd ('/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE')    
+    dataSetDir='/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE';
 else
     % running in windows
+    dataSetDir ='D:\Acad\GitHub\Texture-Segmentation\CODE';
     cd ('D:\Acad\GitHub\Texture-Segmentation\CODE')
 end
 %%
@@ -21,37 +21,12 @@ load randenData
 % maskRanden    -  cell with the masks for each of the composite images
 
 clear resRanden stdsRanden meansRanden fname ind edge error*
-%% Augmentation of training data for classification with U-Net
 
-% select one of the composite images
-currentCase             = 1;
-
-% Partition to create a large number of images to train 
-imageSize               = [32 32];
-stepOverlap             = 0;%16;
 %%
-figure(1)
-colormap gray
-[rows,cols,numClasses]     = size(trainRanden{currentCase});
-for counterClasses = 1:numClasses
-    for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
-        for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
-            currentSection  = uint8(trainRanden{currentCase}(counterR:counterR+imageSize(1)-1,counterC:counterC+imageSize(2)-1,counterClasses));
-            currentLabel    = uint8(ones(32)*counterClasses);
-            % Display
-                    imagesc(currentSection)
-                    title(strcat('Class = ',num2str(counterClasses),32,32,'(',num2str(counterR),'-',num2str(counterC),')'))
-                    pause(0.01)
-                    drawnow;
-                    % Save
-                    fName = strcat('Texture_Randen_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
-                    fNameL = strcat('Texture_Randen_Label_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
-            imwrite(currentSection,strcat('trainingImages\',fName))
-            imwrite(currentLabel,strcat('trainingLabels\',fNameL))
-            
+load textureNet 
 
-        end
-    end
-end
-%set(gca,'position',[0 0 1 1 ]);axis off
+
 %%
+C = semanticseg(uint8(dataRanden{1}),net);
+ B = labeloverlay(uint8(dataRanden{1}), C);
+ imagesc(B)
