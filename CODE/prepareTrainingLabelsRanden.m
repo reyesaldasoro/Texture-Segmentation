@@ -78,8 +78,8 @@ for counterClass_1 = 1:numClasses
                     pause(0.01)
                     drawnow;
                     % Save
-                    fName = strcat('Texture_Randen_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
-                    fNameL = strcat('Texture_Randen_Label_Class_',num2str(counterClasses),'_',num2str(counterR),'_',num2str(counterC),'.png');
+                    fName = strcat('Texture_Randen_Classes_',num2str(counterClass_1),'_',num2str(counterClass_2),       'R_',num2str(counterR),'C_',num2str(counterC),'.png');
+                    fNameL = strcat('Texture_Randen_Label_Classes_',num2str(counterClass_1),'_',num2str(counterClass_2),'R_',num2str(counterR),'C_',num2str(counterC),'.png');
                     imwrite(currentSection,strcat('trainingImages2\',fName))
                     imwrite(currentLabel,strcat('trainingLabels2\',fNameL))
                     
