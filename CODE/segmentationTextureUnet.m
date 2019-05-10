@@ -23,7 +23,7 @@ load randenData
 clear resRanden stdsRanden meansRanden fname ind edge error*
 
 %%
-load textureNet 
+load textureNet2
 
 
 %%
