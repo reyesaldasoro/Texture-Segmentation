@@ -23,8 +23,8 @@ load randenData
 clear resRanden stdsRanden meansRanden fname ind edge error*
 
 %%
-imageDir = fullfile(dataSetDir,'trainingImages');
-labelDir = fullfile(dataSetDir,'trainingLabels');
+imageDir = fullfile(dataSetDir,'trainingImages2');
+labelDir = fullfile(dataSetDir,'trainingLabels2');
 %%
 
 imageSize = [256 256];
@@ -52,7 +52,7 @@ options = trainingOptions('sgdm','InitialLearnRate',1e-3, ...
 net = trainNetwork(ds,lgraph,options);
 
 %%
-save textureNet2 net
+save textureNet2class net
 
 %%
 
