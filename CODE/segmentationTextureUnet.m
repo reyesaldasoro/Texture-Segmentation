@@ -1,4 +1,4 @@
-%% Clear all variables and close all figures
+ %% Clear all variables and close all figures
 clear all
 close all
 clc
