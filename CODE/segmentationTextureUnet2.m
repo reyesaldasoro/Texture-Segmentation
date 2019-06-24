@@ -35,6 +35,10 @@ save textureNet_good_class net
 
 %%
 
-C = semanticseg(testImage,net);
+[C,score,allScores] = semanticseg(testImage,net);
 B = labeloverlay(testImage,C);
 imshow(B)
+
+%%
+BW = (C == 'T1') +2*(C == 'T2') +3*(C == 'T3') +4*(C == 'T4') +5*(C == 'T5')  ;
+imagesc(BW)
