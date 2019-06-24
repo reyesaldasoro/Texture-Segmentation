@@ -29,15 +29,24 @@ labelDir = fullfile(dataSetDir,'trainingLabels2');
 
 imageSize = [256 256];
 numClasses = 5;
-encoderDepth = 3;
+encoderDepth = 4;
 lgraph = unetLayers(imageSize,numClasses,'EncoderDepth',encoderDepth);
 
 %%
 imds = imageDatastore(imageDir);
 %%
-classNames = ["T5","T4","T3","T2","T1"];
-labelIDs   = [5 4 3 2 1];
+classNames = ["T1","T2","T3","T4","T5"];
+labelIDs   = [1 2 3 4 5];
 pxds = pixelLabelDatastore(labelDir,classNames,labelIDs);
+%%
+
+I = read(imds);
+C = read(pxds);
+
+I = imresize(I,5);
+L = imresize(uint8(C),5);
+imshowpair(I,L,'montage')
+
 %%
 imageSize = [32 32];
 %numClasses = 5;
