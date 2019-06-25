@@ -23,7 +23,7 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 %% Create Network
 %load textureNet2
 % select one of the composite images
-for currentCase                 = 8:9
+for currentCase                 = 1
 [rows,cols,numClasses]      = size(trainRanden{currentCase});
 imageDir = fullfile(dataSetDir,strcat('trainingImages',filesep,'Case_',num2str(currentCase)));
 labelDir = fullfile(dataSetDir,strcat('trainingLabels',filesep,'Case_',num2str(currentCase)));
@@ -68,7 +68,7 @@ trainingData = pixelLabelImageDatastore(imds,pxds);
 net = trainNetwork(trainingData,layers,opts);
 
 nameNet = strcat('Network_Case_',num2str(currentCase));
-save(nameNet,'net')
+%save(nameNet,'net')
 
 %
 C = semanticseg(uint8(dataRanden{currentCase}),net);
