@@ -24,19 +24,19 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 %% Augmentation of training data for classification with U-Net 
 
 % select one of the composite images
-currentCase             = 2;
+currentCase             = 9;
 
 % Partition to create a large number of images to train
 imageSize               = [32 32];
 stepOverlap             = 0;%16;
-%%
+%
 figure(1)
 colormap gray
 [rows,cols,numClasses]     = size(trainRanden{currentCase});
 counterClasses  = 1;
 counterR        = 1;
 counterC        = 1;
-%% Prepare training classes to be just one class per image
+% Prepare training classes to be just one class per image
 % for counterClasses = 1:numClasses
 %     for counterR=1:imageSize(1)-stepOverlap:rows-imageSize(1)
 %         for counterC=1:imageSize(2)-stepOverlap:cols-imageSize(2)
@@ -57,7 +57,8 @@ counterC        = 1;
 %         end
 %     end
 % end
-%%
+%
+h2=imagesc(currentSection);
 
 %% Prepare training classes to be just two classes per image
 for counterClass_1 = 1:numClasses
@@ -73,9 +74,10 @@ for counterClass_1 = 1:numClasses
                     currentSection      = [currentSection_1(:,1:16) currentSection_2(:,1:16)] ;
                     currentLabel        = [currentLabel_1(:,1:16) currentLabel_2(:,1:16)];
                     % Display
-                    imagesc(currentSection)
+                    %imagesc(currentSection)
+                    h2.CData = currentSection;
                     title(strcat('Classes = ',num2str(counterClass_1),'/',num2str(counterClass_2),32,32,'(',num2str(counterR),'-',num2str(counterC),')'))
-                    pause(0.01)
+                    %pause(0.01)
                     drawnow;
                     % Save
                     fName  = strcat('Texture_Randen_Classes_',num2str(counterClass_1),'_',num2str(counterClass_2),      'R_',num2str(counterR),'C_',num2str(counterC),'.png');
