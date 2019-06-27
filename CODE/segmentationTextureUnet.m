@@ -69,7 +69,7 @@ trainingData = pixelLabelImageDatastore(imds,pxds);
 net = trainNetwork(trainingData,layers,opts);
 
 nameNet = strcat('Network_Case_',num2str(currentCase),'B');
-%save(nameNet,'net')
+save(nameNet,'net')
 
 %
 C = semanticseg(uint8(dataRanden{currentCase}),net);
