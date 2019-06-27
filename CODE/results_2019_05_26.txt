@@ -1,0 +1,1615 @@
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.68% |       6.5631 |          0.0010 |
+|       4 |          50 |       00:00:16 |       68.38% |       0.7929 |          0.0010 |
+|       7 |         100 |       00:00:34 |       81.14% |       0.5103 |          0.0010 |
+|      10 |         150 |       00:00:53 |       87.13% |       0.3635 |          0.0010 |
+|      14 |         200 |       00:01:11 |       87.75% |       0.3565 |          0.0010 |
+|      17 |         250 |       00:01:32 |       90.08% |       0.2852 |          0.0010 |
+|      20 |         300 |       00:01:48 |       91.46% |       0.2476 |          0.0010 |
+|      24 |         350 |       00:02:06 |       91.40% |       0.2562 |          0.0010 |
+|      27 |         400 |       00:02:26 |       92.38% |       0.2205 |          0.0010 |
+|      30 |         450 |       00:02:47 |       92.94% |       0.2003 |          0.0010 |
+|      34 |         500 |       00:03:04 |       93.08% |       0.2081 |          0.0010 |
+|      37 |         550 |       00:03:21 |       93.62% |       0.1849 |          0.0010 |
+|      40 |         600 |       00:03:36 |       94.15% |       0.1663 |          0.0010 |
+|      44 |         650 |       00:03:52 |       94.27% |       0.1710 |          0.0010 |
+|      47 |         700 |       00:04:07 |       94.82% |       0.1495 |          0.0010 |
+|      50 |         750 |       00:04:22 |       95.03% |       0.1396 |          0.0010 |
+|      54 |         800 |       00:04:38 |       95.19% |       0.1443 |          0.0010 |
+|      57 |         850 |       00:04:54 |       95.71% |       0.1237 |          0.0010 |
+|      60 |         900 |       00:05:10 |       95.87% |       0.1183 |          0.0010 |
+|      64 |         950 |       00:05:26 |       95.78% |       0.1260 |          0.0010 |
+|      67 |        1000 |       00:05:42 |       96.54% |       0.1010 |          0.0010 |
+|      70 |        1050 |       00:05:59 |       96.55% |       0.0999 |          0.0010 |
+|      74 |        1100 |       00:06:14 |       96.36% |       0.1088 |          0.0010 |
+|      77 |        1150 |       00:06:30 |       97.04% |       0.0874 |          0.0010 |
+|      80 |        1200 |       00:06:46 |       97.09% |       0.0867 |          0.0010 |
+|      84 |        1250 |       00:07:01 |       96.88% |       0.0950 |          0.0010 |
+|      87 |        1300 |       00:07:17 |       97.45% |       0.0750 |          0.0010 |
+|      90 |        1350 |       00:07:33 |       97.50% |       0.0755 |          0.0010 |
+|      94 |        1400 |       00:07:49 |       97.25% |       0.0844 |          0.0010 |
+|      97 |        1450 |       00:08:05 |       97.72% |       0.0667 |          0.0010 |
+|     100 |        1500 |       00:08:21 |       97.77% |       0.0678 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.27% |       4.9071 |          0.0010 |
+|       4 |          50 |       00:00:15 |       55.52% |       1.0370 |          0.0010 |
+|       7 |         100 |       00:00:32 |       65.39% |       0.7978 |          0.0010 |
+|      10 |         150 |       00:00:48 |       68.18% |       0.7608 |          0.0010 |
+|      14 |         200 |       00:01:03 |       71.67% |       0.6791 |          0.0010 |
+|      17 |         250 |       00:01:20 |       74.42% |       0.6153 |          0.0010 |
+|      20 |         300 |       00:01:37 |       72.99% |       0.6453 |          0.0010 |
+|      24 |         350 |       00:01:59 |       74.31% |       0.6000 |          0.0010 |
+|      27 |         400 |       00:02:18 |       77.59% |       0.5403 |          0.0010 |
+|      30 |         450 |       00:02:37 |       76.51% |       0.5727 |          0.0010 |
+|      34 |         500 |       00:02:56 |       78.37% |       0.5119 |          0.0010 |
+|      37 |         550 |       00:03:15 |       81.41% |       0.4718 |          0.0010 |
+|      40 |         600 |       00:03:33 |       80.97% |       0.4838 |          0.0010 |
+|      44 |         650 |       00:03:49 |       80.46% |       0.4672 |          0.0010 |
+|      47 |         700 |       00:04:06 |       83.14% |       0.4378 |          0.0010 |
+|      50 |         750 |       00:04:27 |       83.62% |       0.4189 |          0.0010 |
+|      54 |         800 |       00:04:46 |       83.70% |       0.4054 |          0.0010 |
+|      57 |         850 |       00:05:04 |       86.08% |       0.3739 |          0.0010 |
+|      60 |         900 |       00:05:23 |       85.90% |       0.3701 |          0.0010 |
+|      64 |         950 |       00:05:44 |       86.54% |       0.3504 |          0.0010 |
+|      67 |        1000 |       00:06:04 |       87.50% |       0.3401 |          0.0010 |
+|      70 |        1050 |       00:06:26 |       87.57% |       0.3338 |          0.0010 |
+|      74 |        1100 |       00:06:45 |       87.85% |       0.3170 |          0.0010 |
+|      77 |        1150 |       00:07:05 |       88.82% |       0.3077 |          0.0010 |
+|      80 |        1200 |       00:07:22 |       89.38% |       0.2890 |          0.0010 |
+|      84 |        1250 |       00:07:38 |       89.69% |       0.2768 |          0.0010 |
+|      87 |        1300 |       00:07:54 |       89.56% |       0.2874 |          0.0010 |
+|      90 |        1350 |       00:08:09 |       89.92% |       0.2778 |          0.0010 |
+|      94 |        1400 |       00:08:25 |       90.10% |       0.2638 |          0.0010 |
+|      97 |        1450 |       00:08:40 |       90.49% |       0.2658 |          0.0010 |
+|     100 |        1500 |       00:08:56 |       89.71% |       0.2836 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.64% |       6.2086 |          0.0010 |
+|       4 |          50 |       00:00:15 |       47.80% |       1.1745 |          0.0010 |
+|       7 |         100 |       00:00:30 |       52.15% |       1.0967 |          0.0010 |
+|      10 |         150 |       00:00:45 |       57.49% |       0.9984 |          0.0010 |
+|      14 |         200 |       00:01:01 |       64.64% |       0.8614 |          0.0010 |
+|      17 |         250 |       00:01:16 |       64.72% |       0.8696 |          0.0010 |
+|      20 |         300 |       00:01:32 |       65.01% |       0.8565 |          0.0010 |
+|      24 |         350 |       00:01:47 |       70.85% |       0.7385 |          0.0010 |
+|      27 |         400 |       00:02:03 |       69.13% |       0.7691 |          0.0010 |
+|      30 |         450 |       00:02:20 |       68.74% |       0.7782 |          0.0010 |
+|      34 |         500 |       00:02:35 |       73.58% |       0.6774 |          0.0010 |
+|      37 |         550 |       00:02:51 |       72.32% |       0.7047 |          0.0010 |
+|      40 |         600 |       00:03:06 |       70.86% |       0.7299 |          0.0010 |
+|      44 |         650 |       00:03:22 |       75.41% |       0.6335 |          0.0010 |
+|      47 |         700 |       00:03:37 |       74.03% |       0.6728 |          0.0010 |
+|      50 |         750 |       00:03:52 |       72.93% |       0.6955 |          0.0010 |
+|      54 |         800 |       00:04:08 |       77.18% |       0.5931 |          0.0010 |
+|      57 |         850 |       00:04:24 |       75.99% |       0.6287 |          0.0010 |
+|      60 |         900 |       00:04:39 |       74.74% |       0.6539 |          0.0010 |
+|      64 |         950 |       00:04:54 |       78.38% |       0.5672 |          0.0010 |
+|      67 |        1000 |       00:05:10 |       76.91% |       0.6039 |          0.0010 |
+|      70 |        1050 |       00:05:25 |       76.19% |       0.6181 |          0.0010 |
+|      74 |        1100 |       00:05:40 |       79.79% |       0.5374 |          0.0010 |
+|      77 |        1150 |       00:05:56 |       78.68% |       0.5607 |          0.0010 |
+|      80 |        1200 |       00:06:11 |       77.24% |       0.5923 |          0.0010 |
+|      84 |        1250 |       00:06:27 |       81.49% |       0.4965 |          0.0010 |
+|      87 |        1300 |       00:06:42 |       79.64% |       0.5397 |          0.0010 |
+|      90 |        1350 |       00:06:58 |       78.99% |       0.5492 |          0.0010 |
+|      94 |        1400 |       00:07:14 |       82.60% |       0.4687 |          0.0010 |
+|      97 |        1450 |       00:07:32 |       80.97% |       0.5028 |          0.0010 |
+|     100 |        1500 |       00:07:49 |       80.19% |       0.5235 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.76% |       4.9839 |          0.0010 |
+|       4 |          50 |       00:00:14 |       29.19% |       1.5150 |          0.0010 |
+|       7 |         100 |       00:00:30 |       45.09% |       1.2209 |          0.0010 |
+|      10 |         150 |       00:00:45 |       51.39% |       1.0627 |          0.0010 |
+|      14 |         200 |       00:01:01 |       58.21% |       0.9746 |          0.0010 |
+|      17 |         250 |       00:01:16 |       60.12% |       0.9382 |          0.0010 |
+|      20 |         300 |       00:01:31 |       65.25% |       0.8409 |          0.0010 |
+|      24 |         350 |       00:01:47 |       67.02% |       0.8361 |          0.0010 |
+|      27 |         400 |       00:02:02 |       66.90% |       0.8156 |          0.0010 |
+|      30 |         450 |       00:02:18 |       68.10% |       0.7867 |          0.0010 |
+|      34 |         500 |       00:02:33 |       69.89% |       0.7742 |          0.0010 |
+|      37 |         550 |       00:02:48 |       69.54% |       0.7607 |          0.0010 |
+|      40 |         600 |       00:03:04 |       70.64% |       0.7359 |          0.0010 |
+|      44 |         650 |       00:03:19 |       72.73% |       0.7143 |          0.0010 |
+|      47 |         700 |       00:03:35 |       72.09% |       0.7108 |          0.0010 |
+|      50 |         750 |       00:03:50 |       73.78% |       0.6755 |          0.0010 |
+|      54 |         800 |       00:04:06 |       75.78% |       0.6436 |          0.0010 |
+|      57 |         850 |       00:04:21 |       76.17% |       0.6270 |          0.0010 |
+|      60 |         900 |       00:04:36 |       77.76% |       0.5892 |          0.0010 |
+|      64 |         950 |       00:04:52 |       78.82% |       0.5692 |          0.0010 |
+|      67 |        1000 |       00:05:07 |       78.89% |       0.5637 |          0.0010 |
+|      70 |        1050 |       00:05:22 |       79.97% |       0.5374 |          0.0010 |
+|      74 |        1100 |       00:05:38 |       81.09% |       0.5181 |          0.0010 |
+|      77 |        1150 |       00:05:53 |       81.53% |       0.5082 |          0.0010 |
+|      80 |        1200 |       00:06:08 |       82.43% |       0.4818 |          0.0010 |
+|      84 |        1250 |       00:06:25 |       83.01% |       0.4785 |          0.0010 |
+|      87 |        1300 |       00:06:42 |       83.07% |       0.4699 |          0.0010 |
+|      90 |        1350 |       00:06:58 |       84.21% |       0.4445 |          0.0010 |
+|      94 |        1400 |       00:07:14 |       84.82% |       0.4306 |          0.0010 |
+|      97 |        1450 |       00:07:29 |       84.60% |       0.4278 |          0.0010 |
+|     100 |        1500 |       00:07:44 |       85.51% |       0.4090 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       21.54% |       6.1094 |          0.0010 |
+|       4 |          50 |       00:00:14 |       45.29% |       1.2984 |          0.0010 |
+|       7 |         100 |       00:00:30 |       56.27% |       1.0401 |          0.0010 |
+|      10 |         150 |       00:00:45 |       60.49% |       0.9395 |          0.0010 |
+|      14 |         200 |       00:01:00 |       68.14% |       0.7747 |          0.0010 |
+|      17 |         250 |       00:01:16 |       66.93% |       0.7936 |          0.0010 |
+|      20 |         300 |       00:01:31 |       68.22% |       0.7615 |          0.0010 |
+|      24 |         350 |       00:01:46 |       72.47% |       0.6778 |          0.0010 |
+|      27 |         400 |       00:02:02 |       71.55% |       0.6949 |          0.0010 |
+|      30 |         450 |       00:02:17 |       72.22% |       0.6663 |          0.0010 |
+|      34 |         500 |       00:02:32 |       76.40% |       0.5916 |          0.0010 |
+|      37 |         550 |       00:02:48 |       75.41% |       0.6104 |          0.0010 |
+|      40 |         600 |       00:03:03 |       76.13% |       0.5831 |          0.0010 |
+|      44 |         650 |       00:03:19 |       81.07% |       0.4905 |          0.0010 |
+|      47 |         700 |       00:03:35 |       80.11% |       0.5118 |          0.0010 |
+|      50 |         750 |       00:03:51 |       79.64% |       0.5128 |          0.0010 |
+|      54 |         800 |       00:04:06 |       83.62% |       0.4310 |          0.0010 |
+|      57 |         850 |       00:04:21 |       82.22% |       0.4534 |          0.0010 |
+|      60 |         900 |       00:04:37 |       83.15% |       0.4287 |          0.0010 |
+|      64 |         950 |       00:04:52 |       86.79% |       0.3523 |          0.0010 |
+|      67 |        1000 |       00:05:07 |       84.80% |       0.3916 |          0.0010 |
+|      70 |        1050 |       00:05:23 |       85.45% |       0.3691 |          0.0010 |
+|      74 |        1100 |       00:05:38 |       88.63% |       0.3024 |          0.0010 |
+|      77 |        1150 |       00:05:53 |       87.51% |       0.3281 |          0.0010 |
+|      80 |        1200 |       00:06:09 |       87.57% |       0.3211 |          0.0010 |
+|      84 |        1250 |       00:06:25 |       90.06% |       0.2659 |          0.0010 |
+|      87 |        1300 |       00:06:41 |       88.67% |       0.3005 |          0.0010 |
+|      90 |        1350 |       00:06:56 |       89.20% |       0.2832 |          0.0010 |
+|      94 |        1400 |       00:07:12 |       91.53% |       0.2324 |          0.0010 |
+|      97 |        1450 |       00:07:27 |       90.00% |       0.2664 |          0.0010 |
+|     100 |        1500 |       00:07:42 |       90.30% |       0.2545 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |        6.59% |       8.9023 |          0.0010 |
+|       1 |          50 |       00:00:14 |       14.68% |       2.5928 |          0.0010 |
+|       1 |         100 |       00:00:30 |       22.70% |       2.3825 |          0.0010 |
+|       1 |         150 |       00:00:47 |       31.05% |       2.1206 |          0.0010 |
+|       2 |         200 |       00:01:03 |       34.77% |       1.9373 |          0.0010 |
+|       2 |         250 |       00:01:20 |       42.02% |       1.7833 |          0.0010 |
+|       2 |         300 |       00:01:36 |       43.81% |       1.6826 |          0.0010 |
+|       2 |         350 |       00:01:52 |       39.71% |       1.7618 |          0.0010 |
+|       3 |         400 |       00:02:09 |       39.55% |       1.7812 |          0.0010 |
+|       3 |         450 |       00:02:25 |       43.32% |       1.6471 |          0.0010 |
+|       3 |         500 |       00:02:41 |       45.72% |       1.6165 |          0.0010 |
+|       4 |         550 |       00:02:58 |       45.85% |       1.5965 |          0.0010 |
+|       4 |         600 |       00:03:14 |       43.94% |       1.6361 |          0.0010 |
+|       4 |         650 |       00:03:31 |       42.12% |       1.6658 |          0.0010 |
+|       4 |         700 |       00:03:47 |       46.19% |       1.5938 |          0.0010 |
+|       5 |         750 |       00:04:03 |       46.99% |       1.5348 |          0.0010 |
+|       5 |         800 |       00:04:20 |       51.56% |       1.4442 |          0.0010 |
+|       5 |         850 |       00:04:36 |       48.07% |       1.5311 |          0.0010 |
+|       5 |         900 |       00:04:53 |       46.77% |       1.5788 |          0.0010 |
+|       6 |         950 |       00:05:09 |       50.74% |       1.4639 |          0.0010 |
+|       6 |        1000 |       00:05:25 |       49.97% |       1.4959 |          0.0010 |
+|       6 |        1050 |       00:05:42 |       54.26% |       1.3462 |          0.0010 |
+|       7 |        1100 |       00:05:58 |       54.03% |       1.3580 |          0.0010 |
+|       7 |        1150 |       00:06:14 |       56.46% |       1.2875 |          0.0010 |
+|       7 |        1200 |       00:06:31 |       53.52% |       1.3473 |          0.0010 |
+|       7 |        1250 |       00:06:47 |       53.33% |       1.3589 |          0.0010 |
+|       8 |        1300 |       00:07:04 |       61.07% |       1.1648 |          0.0010 |
+|       8 |        1350 |       00:07:20 |       53.61% |       1.3364 |          0.0010 |
+|       8 |        1400 |       00:07:36 |       57.17% |       1.2718 |          0.0010 |
+|       8 |        1450 |       00:07:53 |       58.93% |       1.2370 |          0.0010 |
+|       9 |        1500 |       00:08:09 |       55.89% |       1.2801 |          0.0010 |
+|       9 |        1550 |       00:08:26 |       60.81% |       1.1531 |          0.0010 |
+|       9 |        1600 |       00:08:42 |       61.44% |       1.1479 |          0.0010 |
+|      10 |        1650 |       00:08:58 |       61.18% |       1.1379 |          0.0010 |
+|      10 |        1700 |       00:09:15 |       61.14% |       1.1462 |          0.0010 |
+|      10 |        1750 |       00:09:31 |       58.56% |       1.2314 |          0.0010 |
+|      10 |        1800 |       00:09:47 |       59.91% |       1.1919 |          0.0010 |
+|      11 |        1850 |       00:10:04 |       64.38% |       1.0923 |          0.0010 |
+|      11 |        1900 |       00:10:21 |       59.62% |       1.1796 |          0.0010 |
+|      11 |        1950 |       00:10:37 |       63.92% |       1.0666 |          0.0010 |
+|      11 |        2000 |       00:10:53 |       63.54% |       1.0772 |          0.0010 |
+|      12 |        2050 |       00:11:10 |       60.90% |       1.1070 |          0.0010 |
+|      12 |        2100 |       00:11:26 |       67.10% |       0.9846 |          0.0010 |
+|      12 |        2150 |       00:11:42 |       63.07% |       1.0773 |          0.0010 |
+|      13 |        2200 |       00:11:59 |       63.36% |       1.0736 |          0.0010 |
+|      13 |        2250 |       00:12:16 |       61.67% |       1.0991 |          0.0010 |
+|      13 |        2300 |       00:12:34 |       66.44% |       0.9930 |          0.0010 |
+|      13 |        2350 |       00:12:52 |       64.53% |       1.0372 |          0.0010 |
+|      14 |        2400 |       00:13:11 |       62.61% |       1.1172 |          0.0010 |
+|      14 |        2450 |       00:13:30 |       64.89% |       1.0266 |          0.0010 |
+|      14 |        2500 |       00:13:47 |       65.04% |       1.0378 |          0.0010 |
+|      14 |        2550 |       00:14:05 |       66.04% |       0.9845 |          0.0010 |
+|      15 |        2600 |       00:14:23 |       65.44% |       0.9924 |          0.0010 |
+|      15 |        2650 |       00:14:41 |       67.74% |       0.9518 |          0.0010 |
+|      15 |        2700 |       00:14:58 |       63.67% |       1.0604 |          0.0010 |
+|      16 |        2750 |       00:15:16 |       64.20% |       1.0353 |          0.0010 |
+|      16 |        2800 |       00:15:33 |       65.17% |       1.0348 |          0.0010 |
+|      16 |        2850 |       00:15:49 |       65.40% |       1.0022 |          0.0010 |
+|      16 |        2900 |       00:16:07 |       67.34% |       0.9743 |          0.0010 |
+|      17 |        2950 |       00:16:23 |       63.37% |       1.0636 |          0.0010 |
+|      17 |        3000 |       00:16:40 |       67.05% |       0.9572 |          0.0010 |
+|      17 |        3050 |       00:16:57 |       61.78% |       1.1073 |          0.0010 |
+|      17 |        3100 |       00:17:14 |       61.69% |       1.0820 |          0.0010 |
+|      18 |        3150 |       00:17:32 |       65.77% |       0.9947 |          0.0010 |
+|      18 |        3200 |       00:17:50 |       65.02% |       0.9982 |          0.0010 |
+|      18 |        3250 |       00:18:07 |       67.95% |       0.9409 |          0.0010 |
+|      19 |        3300 |       00:18:25 |       68.32% |       0.9372 |          0.0010 |
+|      19 |        3350 |       00:18:42 |       68.46% |       0.9271 |          0.0010 |
+|      19 |        3400 |       00:18:58 |       68.73% |       0.9034 |          0.0010 |
+|      19 |        3450 |       00:19:15 |       70.35% |       0.8948 |          0.0010 |
+|      20 |        3500 |       00:19:32 |       67.35% |       0.9172 |          0.0010 |
+|      20 |        3550 |       00:19:49 |       66.50% |       0.9978 |          0.0010 |
+|      20 |        3600 |       00:20:06 |       66.34% |       0.9599 |          0.0010 |
+|      20 |        3650 |       00:20:23 |       71.82% |       0.8165 |          0.0010 |
+|      21 |        3700 |       00:20:44 |       72.64% |       0.8282 |          0.0010 |
+|      21 |        3750 |       00:21:06 |       71.84% |       0.8405 |          0.0010 |
+|      21 |        3800 |       00:21:25 |       67.15% |       0.9396 |          0.0010 |
+|      22 |        3850 |       00:21:42 |       70.85% |       0.8757 |          0.0010 |
+|      22 |        3900 |       00:22:01 |       64.33% |       1.0244 |          0.0010 |
+|      22 |        3950 |       00:22:18 |       69.66% |       0.8794 |          0.0010 |
+|      22 |        4000 |       00:22:40 |       67.76% |       0.9552 |          0.0010 |
+|      23 |        4050 |       00:23:00 |       68.55% |       0.9060 |          0.0010 |
+|      23 |        4100 |       00:23:18 |       65.49% |       1.0168 |          0.0010 |
+|      23 |        4150 |       00:23:36 |       69.78% |       0.8665 |          0.0010 |
+|      23 |        4200 |       00:23:53 |       71.18% |       0.8234 |          0.0010 |
+|      24 |        4250 |       00:24:10 |       66.62% |       0.9732 |          0.0010 |
+|      24 |        4300 |       00:24:27 |       70.43% |       0.8597 |          0.0010 |
+|      24 |        4350 |       00:24:44 |       68.57% |       0.9167 |          0.0010 |
+|      25 |        4400 |       00:25:02 |       70.60% |       0.8536 |          0.0010 |
+|      25 |        4450 |       00:25:19 |       71.37% |       0.8352 |          0.0010 |
+|      25 |        4500 |       00:25:36 |       71.70% |       0.8528 |          0.0010 |
+|      25 |        4550 |       00:25:52 |       71.78% |       0.8052 |          0.0010 |
+|      26 |        4600 |       00:26:10 |       70.24% |       0.8764 |          0.0010 |
+|      26 |        4650 |       00:26:27 |       68.74% |       0.8940 |          0.0010 |
+|      26 |        4700 |       00:26:44 |       69.16% |       0.8888 |          0.0010 |
+|      26 |        4750 |       00:27:01 |       71.62% |       0.8432 |          0.0010 |
+|      27 |        4800 |       00:27:18 |       70.39% |       0.8749 |          0.0010 |
+|      27 |        4850 |       00:27:35 |       70.46% |       0.8575 |          0.0010 |
+|      27 |        4900 |       00:27:52 |       72.69% |       0.7988 |          0.0010 |
+|      28 |        4950 |       00:28:10 |       74.64% |       0.7629 |          0.0010 |
+|      28 |        5000 |       00:28:27 |       73.73% |       0.7842 |          0.0010 |
+|      28 |        5050 |       00:28:44 |       72.13% |       0.8160 |          0.0010 |
+|      28 |        5100 |       00:29:01 |       73.49% |       0.7905 |          0.0010 |
+|      29 |        5150 |       00:29:18 |       71.94% |       0.8202 |          0.0010 |
+|      29 |        5200 |       00:29:35 |       70.70% |       0.8658 |          0.0010 |
+|      29 |        5250 |       00:29:53 |       72.29% |       0.8195 |          0.0010 |
+{Operation terminated by user during
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnnhost.convolveBackwardData2DCore', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnnhost\convolveBackwardData2DCore.m', 22)" style="font-weight:bold">nnet.internal.cnnhost.convolveBackwardData2DCore</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnnhost\convolveBackwardData2DCore.m',22,0)">line 22</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnnhost.convolveBackwardData2D', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnnhost\convolveBackwardData2D.m', 52)" style="font-weight:bold">nnet.internal.cnnhost.convolveBackwardData2D</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnnhost\convolveBackwardData2D.m',52,0)">line 52</a>)
+dLossdA = nnet.internal.cnnhost.convolveBackwardData2DCore(...
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.util.Convolution2DHostStridedConvStrategy/backward', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\+util\Convolution2DHostStridedConvStrategy.m', 32)" style="font-weight:bold">nnet.internal.cnn.layer.util.Convolution2DHostStridedConvStrategy/backward</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\+util\Convolution2DHostStridedConvStrategy.m',32,0)">line 32</a>)
+            dX = nnet.internal.cnnhost.convolveBackwardData2D(
+            ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/doBackward', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 455)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/doBackward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',455,0)">line 455</a>)
+            [varargout{1:nargout}] =
+            this.ExecutionStrategy.backward( ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/backwardNormal', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 425)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/backwardNormal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',425,0)">line
+425</a>)
+            [varargout{1:nargout}] = this.doBackward(X,
+            this.Weights.Value, dZ);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/backward', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 182)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/backward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',182,0)">line 182</a>)
+                [varargout{1:nargout}] = this.backwardNormal(X,
+                [], dZ, []);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.FusedLayer/backward', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\FusedLayer.m', 295)" style="font-weight:bold">nnet.internal.cnn.layer.FusedLayer/backward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\FusedLayer.m',295,0)">line 295</a>)
+                    [dLossdZ, dLossdWThisLayer] =
+                    layers{i}.backward( backwardArgs{:} );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.layer.ConvolutionReLU/backward', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\ConvolutionReLU.m', 184)" style="font-weight:bold">nnet.internal.cnn.layer.ConvolutionReLU/backward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\ConvolutionReLU.m',184,0)">line 184</a>)
+                [varargout{1:nargout}] = ...
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork/computeGradientsForTraining/efficientBackProp', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 740)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork/computeGradientsForTraining/efficientBackProp</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',740,0)">line 740</a>)
+                        [dLossdX, dLossdW] =
+                        thisLayer.backward( backwardArgs{:} );
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork>@()efficientBackProp(i)', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 797)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork>@()efficientBackProp(i)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',797,0)">line
+797</a>)
+                        @() efficientBackProp(i), ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+util\executeWithStagedGPUOOMRecovery.m', 11)" style="font-weight:bold">nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\+util\executeWithStagedGPUOOMRecovery.m',11,0)">line
+11</a>)
+        [ varargout{1:nOutputs} ] = computeFun();
+
+In
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork>iExecuteWithStagedGPUOOMRecovery', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 1473)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork>iExecuteWithStagedGPUOOMRecovery</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',1473,0)">line 1473</a>)
+[varargout{1:nargout}] =
+nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery(varargin{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork/computeGradientsForTraining', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 796)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork/computeGradientsForTraining</a>
+(<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',796,0)">line 796</a>)
+                    theseGradients =
+                    iExecuteWithStagedGPUOOMRecovery( ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.Trainer/computeGradients', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m', 196)" style="font-weight:bold">nnet.internal.cnn.Trainer/computeGradients</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m',196,0)">line 196</a>)
+            [gradients, predictions, states] =
+            net.computeGradientsForTraining(X, Y,
+            needsStatefulTraining, propagateState);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nnet.internal.cnn.Trainer/train', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m', 115)" style="font-weight:bold">nnet.internal.cnn.Trainer/train</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m',115,0)">line 115</a>)
+                    [gradients, predictions, states] =
+                    this.computeGradients(net, X, response,
+                    needsStatefulTraining, propagateState);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trainNetwork>doTrainNetwork', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\trainNetwork.m', 234)" style="font-weight:bold">trainNetwork>doTrainNetwork</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\trainNetwork.m',234,0)">line 234</a>)
+trainedNet = trainer.train(trainedNet, trainingDispatcher);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trainNetwork', 'C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\trainNetwork.m', 163)" style="font-weight:bold">trainNetwork</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2019a\toolbox\nnet\cnn\trainNetwork.m',163,0)">line 163</a>)
+    [trainedNet, info] = doTrainNetwork(layersOrGraph, opts, X,
+    Y);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LiveEditorEvaluationHelperESectionEval333d9a14', 'C:\Users\sbbk034\AppData\Local\Temp\Editor\LiveEditorEvaluationHelperESectionEval333d9a14.mlx', 69)" style="font-weight:bold">LiveEditorEvaluationHelperESectionEval333d9a14</a> (<a href="matlab: opentoline('C:\Users\sbbk034\AppData\Local\Temp\Editor\LiveEditorEvaluationHelperESectionEval333d9a14.mlx',69,0)">line 69</a>)
+net = trainNetwork(trainingData,layers,opts);
+
+In matlab.internal.editor.evaluateCode
+} 
+Operation terminated by user
+
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       22.84% |       7.9772 |          0.0010 |
+|       4 |          50 |       00:00:19 |       63.44% |       0.8770 |          0.0010 |
+|       7 |         100 |       00:00:37 |       76.06% |       0.6165 |          0.0010 |
+|      10 |         150 |       00:00:53 |       80.62% |       0.5193 |          0.0010 |
+|      14 |         200 |       00:01:09 |       86.74% |       0.3662 |          0.0010 |
+|      17 |         250 |       00:01:25 |       88.32% |       0.3322 |          0.0010 |
+|      20 |         300 |       00:01:41 |       88.98% |       0.3111 |          0.0010 |
+|      24 |         350 |       00:01:58 |       90.15% |       0.2726 |          0.0010 |
+|      27 |         400 |       00:02:14 |       90.58% |       0.2674 |          0.0010 |
+|      30 |         450 |       00:02:30 |       91.26% |       0.2505 |          0.0010 |
+|      34 |         500 |       00:02:46 |       91.76% |       0.2280 |          0.0010 |
+|      37 |         550 |       00:03:02 |       92.46% |       0.2192 |          0.0010 |
+|      40 |         600 |       00:03:18 |       92.68% |       0.2119 |          0.0010 |
+|      44 |         650 |       00:03:34 |       93.17% |       0.1913 |          0.0010 |
+|      47 |         700 |       00:03:50 |       93.52% |       0.1858 |          0.0010 |
+|      50 |         750 |       00:04:05 |       93.81% |       0.1801 |          0.0010 |
+|      54 |         800 |       00:04:21 |       94.26% |       0.1629 |          0.0010 |
+|      57 |         850 |       00:04:37 |       94.19% |       0.1644 |          0.0010 |
+|      60 |         900 |       00:04:52 |       94.94% |       0.1490 |          0.0010 |
+|      64 |         950 |       00:05:08 |       95.29% |       0.1352 |          0.0010 |
+|      67 |        1000 |       00:05:24 |       95.07% |       0.1390 |          0.0010 |
+|      70 |        1050 |       00:05:40 |       95.59% |       0.1287 |          0.0010 |
+|      74 |        1100 |       00:05:56 |       96.07% |       0.1129 |          0.0010 |
+|      77 |        1150 |       00:06:12 |       95.82% |       0.1205 |          0.0010 |
+|      80 |        1200 |       00:06:27 |       95.99% |       0.1187 |          0.0010 |
+|      84 |        1250 |       00:06:42 |       95.77% |       0.1177 |          0.0010 |
+|      87 |        1300 |       00:06:58 |       96.23% |       0.1078 |          0.0010 |
+|      90 |        1350 |       00:07:13 |       96.67% |       0.1017 |          0.0010 |
+|      94 |        1400 |       00:07:29 |       97.13% |       0.0852 |          0.0010 |
+|      97 |        1450 |       00:07:45 |       96.77% |       0.0936 |          0.0010 |
+|     100 |        1500 |       00:08:00 |       97.04% |       0.0906 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.23% |       5.7050 |          0.0010 |
+|       4 |          50 |       00:00:15 |       49.95% |       1.1825 |          0.0010 |
+|       7 |         100 |       00:00:30 |       64.06% |       0.8460 |          0.0010 |
+|      10 |         150 |       00:00:46 |       67.96% |       0.7336 |          0.0010 |
+|      14 |         200 |       00:01:01 |       69.89% |       0.6863 |          0.0010 |
+|      17 |         250 |       00:01:17 |       72.71% |       0.6586 |          0.0010 |
+|      20 |         300 |       00:01:32 |       71.95% |       0.6338 |          0.0010 |
+|      24 |         350 |       00:01:48 |       74.72% |       0.6054 |          0.0010 |
+|      27 |         400 |       00:02:03 |       75.36% |       0.5909 |          0.0010 |
+|      30 |         450 |       00:02:18 |       74.44% |       0.5862 |          0.0010 |
+|      34 |         500 |       00:02:34 |       77.03% |       0.5490 |          0.0010 |
+|      37 |         550 |       00:02:49 |       78.54% |       0.5438 |          0.0010 |
+|      40 |         600 |       00:03:05 |       78.16% |       0.5242 |          0.0010 |
+|      44 |         650 |       00:03:20 |       79.85% |       0.4953 |          0.0010 |
+|      47 |         700 |       00:03:35 |       81.39% |       0.4850 |          0.0010 |
+|      50 |         750 |       00:03:51 |       81.05% |       0.4669 |          0.0010 |
+|      54 |         800 |       00:04:08 |       81.35% |       0.4527 |          0.0010 |
+|      57 |         850 |       00:04:23 |       84.28% |       0.4305 |          0.0010 |
+|      60 |         900 |       00:04:38 |       83.66% |       0.4142 |          0.0010 |
+|      64 |         950 |       00:04:54 |       83.13% |       0.4266 |          0.0010 |
+|      67 |        1000 |       00:05:09 |       84.91% |       0.3996 |          0.0010 |
+|      70 |        1050 |       00:05:25 |       85.00% |       0.3818 |          0.0010 |
+|      74 |        1100 |       00:05:40 |       86.07% |       0.3543 |          0.0010 |
+|      77 |        1150 |       00:05:56 |       87.19% |       0.3442 |          0.0010 |
+|      80 |        1200 |       00:06:11 |       87.97% |       0.3236 |          0.0010 |
+|      84 |        1250 |       00:06:26 |       88.09% |       0.3110 |          0.0010 |
+|      87 |        1300 |       00:06:42 |       88.56% |       0.3102 |          0.0010 |
+|      90 |        1350 |       00:06:57 |       89.62% |       0.2844 |          0.0010 |
+|      94 |        1400 |       00:07:13 |       89.33% |       0.2812 |          0.0010 |
+|      97 |        1450 |       00:07:28 |       89.82% |       0.2784 |          0.0010 |
+|     100 |        1500 |       00:07:43 |       90.41% |       0.2587 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       22.26% |       6.5882 |          0.0010 |
+|       4 |          50 |       00:00:15 |       35.63% |       1.4433 |          0.0010 |
+|       7 |         100 |       00:00:31 |       47.36% |       1.1521 |          0.0010 |
+|      10 |         150 |       00:00:46 |       55.89% |       1.0414 |          0.0010 |
+|      14 |         200 |       00:01:01 |       58.89% |       0.9872 |          0.0010 |
+|      17 |         250 |       00:01:17 |       62.17% |       0.8994 |          0.0010 |
+|      20 |         300 |       00:01:32 |       65.03% |       0.8572 |          0.0010 |
+|      24 |         350 |       00:01:47 |       66.49% |       0.8282 |          0.0010 |
+|      27 |         400 |       00:02:02 |       65.51% |       0.8227 |          0.0010 |
+|      30 |         450 |       00:02:18 |       69.11% |       0.7726 |          0.0010 |
+|      34 |         500 |       00:02:33 |       69.88% |       0.7618 |          0.0010 |
+|      37 |         550 |       00:02:48 |       68.70% |       0.7599 |          0.0010 |
+|      40 |         600 |       00:03:03 |       70.91% |       0.7346 |          0.0010 |
+|      44 |         650 |       00:03:19 |       72.05% |       0.7178 |          0.0010 |
+|      47 |         700 |       00:03:34 |       70.82% |       0.7172 |          0.0010 |
+|      50 |         750 |       00:03:49 |       72.78% |       0.6962 |          0.0010 |
+|      54 |         800 |       00:04:05 |       73.66% |       0.6768 |          0.0010 |
+|      57 |         850 |       00:04:20 |       72.25% |       0.6865 |          0.0010 |
+|      60 |         900 |       00:04:35 |       74.47% |       0.6627 |          0.0010 |
+|      64 |         950 |       00:04:51 |       75.56% |       0.6268 |          0.0010 |
+|      67 |        1000 |       00:05:06 |       74.73% |       0.6352 |          0.0010 |
+|      70 |        1050 |       00:05:21 |       76.33% |       0.6162 |          0.0010 |
+|      74 |        1100 |       00:05:38 |       78.08% |       0.5760 |          0.0010 |
+|      77 |        1150 |       00:05:55 |       76.75% |       0.5987 |          0.0010 |
+|      80 |        1200 |       00:06:10 |       78.73% |       0.5645 |          0.0010 |
+|      84 |        1250 |       00:06:25 |       80.55% |       0.5238 |          0.0010 |
+|      87 |        1300 |       00:06:41 |       78.81% |       0.5499 |          0.0010 |
+|      90 |        1350 |       00:06:56 |       80.74% |       0.5213 |          0.0010 |
+|      94 |        1400 |       00:07:11 |       81.50% |       0.4948 |          0.0010 |
+|      97 |        1450 |       00:07:27 |       80.60% |       0.5085 |          0.0010 |
+|     100 |        1500 |       00:07:42 |       82.43% |       0.4826 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.91% |       6.4312 |          0.0010 |
+|       4 |          50 |       00:00:16 |       25.88% |       1.5369 |          0.0010 |
+|       7 |         100 |       00:00:31 |       43.20% |       1.2836 |          0.0010 |
+|      10 |         150 |       00:00:46 |       51.08% |       1.1082 |          0.0010 |
+|      14 |         200 |       00:01:02 |       56.75% |       0.9813 |          0.0010 |
+|      17 |         250 |       00:01:17 |       63.26% |       0.9117 |          0.0010 |
+|      20 |         300 |       00:01:32 |       63.96% |       0.8853 |          0.0010 |
+|      24 |         350 |       00:01:47 |       65.48% |       0.8339 |          0.0010 |
+|      27 |         400 |       00:02:02 |       69.42% |       0.7842 |          0.0010 |
+|      30 |         450 |       00:02:17 |       67.62% |       0.8060 |          0.0010 |
+|      34 |         500 |       00:02:32 |       69.97% |       0.7570 |          0.0010 |
+|      37 |         550 |       00:02:47 |       72.83% |       0.7159 |          0.0010 |
+|      40 |         600 |       00:03:02 |       69.75% |       0.7541 |          0.0010 |
+|      44 |         650 |       00:03:18 |       72.52% |       0.7088 |          0.0010 |
+|      47 |         700 |       00:03:34 |       75.53% |       0.6538 |          0.0010 |
+|      50 |         750 |       00:03:48 |       73.07% |       0.6836 |          0.0010 |
+|      54 |         800 |       00:04:04 |       75.63% |       0.6396 |          0.0010 |
+|      57 |         850 |       00:04:19 |       77.92% |       0.5891 |          0.0010 |
+|      60 |         900 |       00:04:33 |       76.04% |       0.6194 |          0.0010 |
+|      64 |         950 |       00:04:49 |       78.41% |       0.5763 |          0.0010 |
+|      67 |        1000 |       00:05:04 |       80.15% |       0.5372 |          0.0010 |
+|      70 |        1050 |       00:05:18 |       79.16% |       0.5470 |          0.0010 |
+|      74 |        1100 |       00:05:33 |       80.42% |       0.5201 |          0.0010 |
+|      77 |        1150 |       00:05:48 |       81.55% |       0.4969 |          0.0010 |
+|      80 |        1200 |       00:06:03 |       80.99% |       0.4994 |          0.0010 |
+|      84 |        1250 |       00:06:18 |       82.21% |       0.4776 |          0.0010 |
+|      87 |        1300 |       00:06:33 |       83.26% |       0.4528 |          0.0010 |
+|      90 |        1350 |       00:06:48 |       81.86% |       0.4808 |          0.0010 |
+|      94 |        1400 |       00:07:03 |       83.89% |       0.4431 |          0.0010 |
+|      97 |        1450 |       00:07:18 |       83.85% |       0.4348 |          0.0010 |
+|     100 |        1500 |       00:07:33 |       83.42% |       0.4440 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |       20.58% |       5.2108 |          0.0010 |
+|       4 |          50 |       00:00:14 |       43.60% |       1.2847 |          0.0010 |
+|       7 |         100 |       00:00:29 |       56.32% |       1.0155 |          0.0010 |
+|      10 |         150 |       00:00:44 |       68.66% |       0.8023 |          0.0010 |
+|      14 |         200 |       00:00:59 |       67.77% |       0.7882 |          0.0010 |
+|      17 |         250 |       00:01:14 |       71.04% |       0.7150 |          0.0010 |
+|      20 |         300 |       00:01:29 |       75.78% |       0.6328 |          0.0010 |
+|      24 |         350 |       00:01:44 |       74.45% |       0.6424 |          0.0010 |
+|      27 |         400 |       00:01:59 |       75.77% |       0.6029 |          0.0010 |
+|      30 |         450 |       00:02:14 |       80.43% |       0.5167 |          0.0010 |
+|      34 |         500 |       00:02:28 |       78.59% |       0.5441 |          0.0010 |
+|      37 |         550 |       00:02:43 |       79.66% |       0.5112 |          0.0010 |
+|      40 |         600 |       00:02:58 |       82.98% |       0.4497 |          0.0010 |
+|      44 |         650 |       00:03:13 |       81.96% |       0.4661 |          0.0010 |
+|      47 |         700 |       00:03:28 |       82.34% |       0.4409 |          0.0010 |
+|      50 |         750 |       00:03:43 |       85.91% |       0.3799 |          0.0010 |
+|      54 |         800 |       00:03:58 |       85.17% |       0.3968 |          0.0010 |
+|      57 |         850 |       00:04:13 |       85.84% |       0.3714 |          0.0010 |
+|      60 |         900 |       00:04:28 |       87.56% |       0.3367 |          0.0010 |
+|      64 |         950 |       00:04:43 |       87.42% |       0.3413 |          0.0010 |
+|      67 |        1000 |       00:04:57 |       88.53% |       0.3111 |          0.0010 |
+|      70 |        1050 |       00:05:12 |       89.25% |       0.2933 |          0.0010 |
+|      74 |        1100 |       00:05:27 |       88.66% |       0.3003 |          0.0010 |
+|      77 |        1150 |       00:05:42 |       89.75% |       0.2774 |          0.0010 |
+|      80 |        1200 |       00:05:57 |       90.73% |       0.2581 |          0.0010 |
+|      84 |        1250 |       00:06:12 |       89.93% |       0.2664 |          0.0010 |
+|      87 |        1300 |       00:06:27 |       90.95% |       0.2461 |          0.0010 |
+|      90 |        1350 |       00:06:42 |       91.69% |       0.2339 |          0.0010 |
+|      94 |        1400 |       00:06:57 |       91.08% |       0.2383 |          0.0010 |
+|      97 |        1450 |       00:07:12 |       92.04% |       0.2196 |          0.0010 |
+|     100 |        1500 |       00:07:26 |       92.70% |       0.2078 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |        7.29% |       8.6284 |          0.0010 |
+|       1 |          50 |       00:00:16 |        7.11% |       2.7721 |          0.0010 |
+|       1 |         100 |       00:00:32 |        9.39% |       2.7170 |          0.0010 |
+|       1 |         150 |       00:00:48 |       18.58% |       2.4599 |          0.0010 |
+|       2 |         200 |       00:01:04 |       21.53% |       2.3332 |          0.0010 |
+|       2 |         250 |       00:01:20 |       26.22% |       2.2100 |          0.0010 |
+|       2 |         300 |       00:01:36 |       26.61% |       2.1906 |          0.0010 |
+|       2 |         350 |       00:01:52 |       29.62% |       2.1384 |          0.0010 |
+|       3 |         400 |       00:02:09 |       32.75% |       1.9816 |          0.0010 |
+|       3 |         450 |       00:02:25 |       35.01% |       1.9523 |          0.0010 |
+|       3 |         500 |       00:02:41 |       37.09% |       1.8996 |          0.0010 |
+|       4 |         550 |       00:02:57 |       34.75% |       1.9516 |          0.0010 |
+|       4 |         600 |       00:03:15 |       39.23% |       1.8147 |          0.0010 |
+|       4 |         650 |       00:03:31 |       46.92% |       1.6488 |          0.0010 |
+|       4 |         700 |       00:03:47 |       43.57% |       1.7411 |          0.0010 |
+|       5 |         750 |       00:04:03 |       47.18% |       1.6073 |          0.0010 |
+|       5 |         800 |       00:04:20 |       46.81% |       1.6125 |          0.0010 |
+|       5 |         850 |       00:04:36 |       42.32% |       1.7032 |          0.0010 |
+|       5 |         900 |       00:04:52 |       49.51% |       1.5250 |          0.0010 |
+|       6 |         950 |       00:05:08 |       45.18% |       1.6617 |          0.0010 |
+|       6 |        1000 |       00:05:25 |       45.77% |       1.6031 |          0.0010 |
+|       6 |        1050 |       00:05:41 |       48.66% |       1.5362 |          0.0010 |
+|       7 |        1100 |       00:05:57 |       50.01% |       1.4943 |          0.0010 |
+|       7 |        1150 |       00:06:13 |       53.26% |       1.4150 |          0.0010 |
+|       7 |        1200 |       00:06:30 |       50.99% |       1.4663 |          0.0010 |
+|       7 |        1250 |       00:06:46 |       53.34% |       1.4229 |          0.0010 |
+|       8 |        1300 |       00:07:02 |       53.68% |       1.3248 |          0.0010 |
+|       8 |        1350 |       00:07:18 |       53.62% |       1.3684 |          0.0010 |
+|       8 |        1400 |       00:07:34 |       50.67% |       1.4557 |          0.0010 |
+|       8 |        1450 |       00:07:51 |       58.34% |       1.2440 |          0.0010 |
+|       9 |        1500 |       00:08:07 |       48.90% |       1.4692 |          0.0010 |
+|       9 |        1550 |       00:08:23 |       56.97% |       1.2645 |          0.0010 |
+|       9 |        1600 |       00:08:39 |       55.14% |       1.3126 |          0.0010 |
+|      10 |        1650 |       00:08:56 |       53.31% |       1.3651 |          0.0010 |
+|      10 |        1700 |       00:09:12 |       52.40% |       1.3822 |          0.0010 |
+|      10 |        1750 |       00:09:28 |       50.96% |       1.4567 |          0.0010 |
+|      10 |        1800 |       00:09:44 |       55.91% |       1.2867 |          0.0010 |
+|      11 |        1850 |       00:10:01 |       59.33% |       1.2042 |          0.0010 |
+|      11 |        1900 |       00:10:17 |       56.72% |       1.2385 |          0.0010 |
+|      11 |        1950 |       00:10:33 |       59.79% |       1.1563 |          0.0010 |
+|      11 |        2000 |       00:10:49 |       60.17% |       1.1596 |          0.0010 |
+|      12 |        2050 |       00:11:05 |       61.90% |       1.1266 |          0.0010 |
+|      12 |        2100 |       00:11:24 |       64.32% |       1.0432 |          0.0010 |
+|      12 |        2150 |       00:11:41 |       62.02% |       1.1411 |          0.0010 |
+|      13 |        2200 |       00:11:57 |       61.32% |       1.1089 |          0.0010 |
+|      13 |        2250 |       00:12:14 |       64.12% |       1.0615 |          0.0010 |
+|      13 |        2300 |       00:12:30 |       63.83% |       1.0699 |          0.0010 |
+|      13 |        2350 |       00:12:47 |       60.42% |       1.1347 |          0.0010 |
+|      14 |        2400 |       00:13:04 |       62.61% |       1.1022 |          0.0010 |
+|      14 |        2450 |       00:13:20 |       63.76% |       1.0729 |          0.0010 |
+|      14 |        2500 |       00:13:37 |       59.83% |       1.1390 |          0.0010 |
+|      14 |        2550 |       00:13:54 |       62.11% |       1.0802 |          0.0010 |
+|      15 |        2600 |       00:14:13 |       62.12% |       1.0993 |          0.0010 |
+|      15 |        2650 |       00:14:29 |       63.77% |       1.0609 |          0.0010 |
+|      15 |        2700 |       00:14:46 |       63.30% |       1.0575 |          0.0010 |
+|      16 |        2750 |       00:15:03 |       67.37% |       0.9562 |          0.0010 |
+|      16 |        2800 |       00:15:19 |       66.94% |       0.9858 |          0.0010 |
+|      16 |        2850 |       00:15:36 |       57.10% |       1.2246 |          0.0010 |
+|      16 |        2900 |       00:15:53 |       63.57% |       1.0594 |          0.0010 |
+|      17 |        2950 |       00:16:09 |       60.92% |       1.1147 |          0.0010 |
+|      17 |        3000 |       00:16:26 |       69.07% |       0.9314 |          0.0010 |
+|      17 |        3050 |       00:16:42 |       65.84% |       0.9941 |          0.0010 |
+|      17 |        3100 |       00:16:59 |       68.08% |       0.9392 |          0.0010 |
+|      18 |        3150 |       00:17:16 |       69.47% |       0.8959 |          0.0010 |
+|      18 |        3200 |       00:17:32 |       68.81% |       0.9163 |          0.0010 |
+|      18 |        3250 |       00:17:49 |       67.27% |       0.9755 |          0.0010 |
+|      19 |        3300 |       00:18:05 |       65.96% |       0.9945 |          0.0010 |
+|      19 |        3350 |       00:18:23 |       63.42% |       1.0727 |          0.0010 |
+|      19 |        3400 |       00:18:40 |       66.49% |       0.9519 |          0.0010 |
+|      19 |        3450 |       00:18:56 |       67.05% |       0.9737 |          0.0010 |
+|      20 |        3500 |       00:19:13 |       66.38% |       0.9502 |          0.0010 |
+|      20 |        3550 |       00:19:31 |       68.92% |       0.9049 |          0.0010 |
+|      20 |        3600 |       00:19:59 |       67.63% |       0.9529 |          0.0010 |
+|      20 |        3650 |       00:20:35 |       70.85% |       0.8591 |          0.0010 |
+|      21 |        3700 |       00:21:07 |       67.67% |       0.9249 |          0.0010 |
+|      21 |        3750 |       00:21:37 |       67.77% |       0.9348 |          0.0010 |
+|      21 |        3800 |       00:22:03 |       67.56% |       0.9371 |          0.0010 |
+|      22 |        3850 |       00:22:21 |       69.63% |       0.8637 |          0.0010 |
+|      22 |        3900 |       00:22:38 |       69.73% |       0.8883 |          0.0010 |
+|      22 |        3950 |       00:22:54 |       67.20% |       0.9561 |          0.0010 |
+|      22 |        4000 |       00:23:11 |       69.00% |       0.9214 |          0.0010 |
+|      23 |        4050 |       00:23:28 |       67.85% |       0.9284 |          0.0010 |
+|      23 |        4100 |       00:23:45 |       71.20% |       0.8480 |          0.0010 |
+|      23 |        4150 |       00:24:01 |       65.20% |       1.0040 |          0.0010 |
+|      23 |        4200 |       00:24:18 |       65.18% |       0.9874 |          0.0010 |
+|      24 |        4250 |       00:24:34 |       65.20% |       0.9636 |          0.0010 |
+|      24 |        4300 |       00:24:51 |       66.77% |       0.9714 |          0.0010 |
+|      24 |        4350 |       00:25:08 |       67.23% |       0.9329 |          0.0010 |
+|      25 |        4400 |       00:25:25 |       69.58% |       0.8519 |          0.0010 |
+|      25 |        4450 |       00:25:42 |       68.82% |       0.9060 |          0.0010 |
+|      25 |        4500 |       00:25:58 |       68.42% |       0.8993 |          0.0010 |
+|      25 |        4550 |       00:26:15 |       69.28% |       0.8570 |          0.0010 |
+|      26 |        4600 |       00:26:32 |       70.56% |       0.8345 |          0.0010 |
+|      26 |        4650 |       00:26:48 |       71.76% |       0.8129 |          0.0010 |
+|      26 |        4700 |       00:27:05 |       71.72% |       0.8434 |          0.0010 |
+|      26 |        4750 |       00:27:21 |       73.05% |       0.8075 |          0.0010 |
+|      27 |        4800 |       00:27:38 |       74.91% |       0.7362 |          0.0010 |
+|      27 |        4850 |       00:27:55 |       71.13% |       0.8160 |          0.0010 |
+|      27 |        4900 |       00:28:12 |       71.15% |       0.8192 |          0.0010 |
+|      28 |        4950 |       00:28:29 |       68.35% |       0.8930 |          0.0010 |
+|      28 |        5000 |       00:28:45 |       66.96% |       0.9199 |          0.0010 |
+|      28 |        5050 |       00:29:02 |       72.94% |       0.8032 |          0.0010 |
+|      28 |        5100 |       00:29:19 |       72.41% |       0.7914 |          0.0010 |
+|      29 |        5150 |       00:29:36 |       71.27% |       0.8195 |          0.0010 |
+|      29 |        5200 |       00:29:52 |       66.73% |       0.9408 |          0.0010 |
+|      29 |        5250 |       00:30:09 |       66.20% |       0.9754 |          0.0010 |
+|      29 |        5300 |       00:30:26 |       71.77% |       0.7995 |          0.0010 |
+|      30 |        5350 |       00:30:42 |       69.46% |       0.8755 |          0.0010 |
+|      30 |        5400 |       00:30:59 |       71.71% |       0.8323 |          0.0010 |
+|      30 |        5450 |       00:31:16 |       74.66% |       0.7516 |          0.0010 |
+|      31 |        5500 |       00:31:32 |       71.44% |       0.8201 |          0.0010 |
+|      31 |        5550 |       00:31:49 |       70.51% |       0.8501 |          0.0010 |
+|      31 |        5600 |       00:32:06 |       71.21% |       0.8472 |          0.0010 |
+|      31 |        5650 |       00:32:23 |       73.15% |       0.7669 |          0.0010 |
+|      32 |        5700 |       00:32:40 |       73.87% |       0.7812 |          0.0010 |
+|      32 |        5750 |       00:32:56 |       73.83% |       0.7705 |          0.0010 |
+|      32 |        5800 |       00:33:13 |       69.63% |       0.8543 |          0.0010 |
+|      32 |        5850 |       00:33:31 |       69.11% |       0.8919 |          0.0010 |
+|      33 |        5900 |       00:33:48 |       68.39% |       0.9185 |          0.0010 |
+|      33 |        5950 |       00:34:04 |       72.34% |       0.8125 |          0.0010 |
+|      33 |        6000 |       00:34:21 |       71.94% |       0.8120 |          0.0010 |
+|      34 |        6050 |       00:34:38 |       72.64% |       0.7547 |          0.0010 |
+|      34 |        6100 |       00:34:55 |       71.86% |       0.8050 |          0.0010 |
+|      34 |        6150 |       00:35:11 |       70.73% |       0.8233 |          0.0010 |
+|      34 |        6200 |       00:35:29 |       74.23% |       0.7457 |          0.0010 |
+|      35 |        6250 |       00:35:46 |       73.70% |       0.7683 |          0.0010 |
+|      35 |        6300 |       00:36:03 |       73.09% |       0.7940 |          0.0010 |
+|      35 |        6350 |       00:36:19 |       72.61% |       0.8089 |          0.0010 |
+|      35 |        6400 |       00:36:36 |       73.32% |       0.7928 |          0.0010 |
+|      36 |        6450 |       00:36:53 |       72.68% |       0.7903 |          0.0010 |
+|      36 |        6500 |       00:37:10 |       72.46% |       0.8034 |          0.0010 |
+|      36 |        6550 |       00:37:27 |       73.99% |       0.7338 |          0.0010 |
+|      37 |        6600 |       00:37:44 |       70.91% |       0.8340 |          0.0010 |
+|      37 |        6650 |       00:38:00 |       73.68% |       0.7406 |          0.0010 |
+|      37 |        6700 |       00:38:17 |       74.42% |       0.7496 |          0.0010 |
+|      37 |        6750 |       00:38:34 |       72.23% |       0.8025 |          0.0010 |
+|      38 |        6800 |       00:38:51 |       76.02% |       0.6887 |          0.0010 |
+|      38 |        6850 |       00:39:08 |       71.53% |       0.7858 |          0.0010 |
+|      38 |        6900 |       00:39:24 |       72.19% |       0.7875 |          0.0010 |
+|      38 |        6950 |       00:39:41 |       72.02% |       0.8103 |          0.0010 |
+|      39 |        7000 |       00:39:58 |       71.56% |       0.7945 |          0.0010 |
+|      39 |        7050 |       00:40:15 |       73.37% |       0.7666 |          0.0010 |
+|      39 |        7100 |       00:40:32 |       76.01% |       0.6959 |          0.0010 |
+|      40 |        7150 |       00:40:49 |       73.33% |       0.7756 |          0.0010 |
+|      40 |        7200 |       00:41:06 |       73.71% |       0.7573 |          0.0010 |
+|      40 |        7250 |       00:41:23 |       74.15% |       0.7443 |          0.0010 |
+|      40 |        7300 |       00:41:40 |       74.57% |       0.7430 |          0.0010 |
+|      41 |        7350 |       00:41:57 |       71.89% |       0.8016 |          0.0010 |
+|      41 |        7400 |       00:42:14 |       71.98% |       0.8270 |          0.0010 |
+|      41 |        7450 |       00:42:31 |       71.92% |       0.7924 |          0.0010 |
+|      41 |        7500 |       00:42:48 |       74.25% |       0.7341 |          0.0010 |
+|      42 |        7550 |       00:43:05 |       76.99% |       0.6831 |          0.0010 |
+|      42 |        7600 |       00:43:22 |       74.00% |       0.7507 |          0.0010 |
+|      42 |        7650 |       00:43:39 |       73.79% |       0.7427 |          0.0010 |
+|      43 |        7700 |       00:43:56 |       75.91% |       0.7178 |          0.0010 |
+|      43 |        7750 |       00:44:13 |       74.50% |       0.7525 |          0.0010 |
+|      43 |        7800 |       00:44:31 |       74.24% |       0.7499 |          0.0010 |
+|      43 |        7850 |       00:44:48 |       73.62% |       0.7677 |          0.0010 |
+|      44 |        7900 |       00:45:06 |       74.26% |       0.7240 |          0.0010 |
+|      44 |        7950 |       00:45:23 |       74.84% |       0.7589 |          0.0010 |
+|      44 |        8000 |       00:45:41 |       73.48% |       0.7539 |          0.0010 |
+|      44 |        8050 |       00:45:59 |       73.86% |       0.7473 |          0.0010 |
+|      45 |        8100 |       00:46:16 |       73.96% |       0.7797 |          0.0010 |
+|      45 |        8150 |       00:46:34 |       74.04% |       0.7520 |          0.0010 |
+|      45 |        8200 |       00:46:52 |       74.71% |       0.7210 |          0.0010 |
+|      46 |        8250 |       00:47:10 |       74.10% |       0.7522 |          0.0010 |
+|      46 |        8300 |       00:47:28 |       74.77% |       0.7398 |          0.0010 |
+|      46 |        8350 |       00:47:46 |       72.71% |       0.7764 |          0.0010 |
+|      46 |        8400 |       00:48:04 |       73.20% |       0.7739 |          0.0010 |
+|      47 |        8450 |       00:48:27 |       74.62% |       0.7243 |          0.0010 |
+|      47 |        8500 |       00:48:50 |       74.27% |       0.7416 |          0.0010 |
+|      47 |        8550 |       00:49:08 |       74.11% |       0.7388 |          0.0010 |
+|      47 |        8600 |       00:49:26 |       74.68% |       0.7454 |          0.0010 |
+|      48 |        8650 |       00:49:45 |       76.34% |       0.7035 |          0.0010 |
+|      48 |        8700 |       00:50:04 |       75.16% |       0.7094 |          0.0010 |
+|      48 |        8750 |       00:50:23 |       77.75% |       0.6521 |          0.0010 |
+|      49 |        8800 |       00:50:42 |       77.35% |       0.6736 |          0.0010 |
+|      49 |        8850 |       00:51:00 |       76.71% |       0.6840 |          0.0010 |
+|      49 |        8900 |       00:51:19 |       73.31% |       0.7782 |          0.0010 |
+|      49 |        8950 |       00:51:39 |       76.73% |       0.6848 |          0.0010 |
+|      50 |        9000 |       00:51:58 |       75.86% |       0.7092 |          0.0010 |
+|      50 |        9050 |       00:52:18 |       73.72% |       0.7441 |          0.0010 |
+|      50 |        9100 |       00:52:38 |       77.02% |       0.6864 |          0.0010 |
+|      50 |        9150 |       00:52:58 |       73.76% |       0.7660 |          0.0010 |
+|      51 |        9200 |       00:53:18 |       74.22% |       0.7299 |          0.0010 |
+|      51 |        9250 |       00:53:38 |       74.73% |       0.7209 |          0.0010 |
+|      51 |        9300 |       00:53:59 |       74.67% |       0.7150 |          0.0010 |
+|      52 |        9350 |       00:54:20 |       74.26% |       0.7423 |          0.0010 |
+|      52 |        9400 |       00:54:41 |       74.63% |       0.7449 |          0.0010 |
+|      52 |        9450 |       00:55:02 |       74.75% |       0.7367 |          0.0010 |
+|      52 |        9500 |       00:55:24 |       73.01% |       0.7897 |          0.0010 |
+|      53 |        9550 |       00:55:45 |       74.86% |       0.6990 |          0.0010 |
+|      53 |        9600 |       00:56:07 |       74.63% |       0.7276 |          0.0010 |
+|      53 |        9650 |       00:56:30 |       78.20% |       0.6492 |          0.0010 |
+|      54 |        9700 |       00:56:52 |       75.80% |       0.7024 |          0.0010 |
+|      54 |        9750 |       00:57:15 |       74.11% |       0.7474 |          0.0010 |
+|      54 |        9800 |       00:57:38 |       75.58% |       0.7089 |          0.0010 |
+|      54 |        9850 |       00:58:02 |       75.01% |       0.7306 |          0.0010 |
+|      55 |        9900 |       00:58:25 |       77.22% |       0.6480 |          0.0010 |
+|      55 |        9950 |       00:58:49 |       75.87% |       0.6923 |          0.0010 |
+|      55 |       10000 |       00:59:14 |       73.95% |       0.7547 |          0.0010 |
+|      55 |       10050 |       00:59:39 |       76.92% |       0.6570 |          0.0010 |
+|      56 |       10100 |       01:00:04 |       75.09% |       0.7226 |          0.0010 |
+|      56 |       10150 |       01:00:30 |       74.55% |       0.7360 |          0.0010 |
+|      56 |       10200 |       01:00:55 |       77.12% |       0.6601 |          0.0010 |
+|      57 |       10250 |       01:01:22 |       74.77% |       0.7329 |          0.0010 |
+|      57 |       10300 |       01:01:49 |       77.44% |       0.6600 |          0.0010 |
+|      57 |       10350 |       01:02:16 |       74.39% |       0.7473 |          0.0010 |
+|      57 |       10400 |       01:02:43 |       77.42% |       0.6689 |          0.0010 |
+|      58 |       10450 |       01:03:13 |       76.61% |       0.6540 |          0.0010 |
+|      58 |       10500 |       01:03:47 |       76.97% |       0.6853 |          0.0010 |
+|      58 |       10550 |       01:04:16 |       73.90% |       0.7742 |          0.0010 |
+|      58 |       10600 |       01:04:46 |       77.89% |       0.6407 |          0.0010 |
+|      59 |       10650 |       01:05:15 |       74.52% |       0.7364 |          0.0010 |
+|      59 |       10700 |       01:05:46 |       76.41% |       0.6744 |          0.0010 |
+|      59 |       10750 |       01:06:16 |       74.17% |       0.7305 |          0.0010 |
+|      60 |       10800 |       01:06:48 |       75.37% |       0.7293 |          0.0010 |
+|      60 |       10850 |       01:07:19 |       72.74% |       0.7743 |          0.0010 |
+|      60 |       10900 |       01:07:51 |       75.78% |       0.7252 |          0.0010 |
+|      60 |       10950 |       01:08:24 |       74.55% |       0.7243 |          0.0010 |
+|      61 |       11000 |       01:08:57 |       77.12% |       0.6708 |          0.0010 |
+|      61 |       11050 |       01:09:30 |       73.95% |       0.7143 |          0.0010 |
+|      61 |       11100 |       01:10:05 |       76.13% |       0.6960 |          0.0010 |
+|      61 |       11150 |       01:10:39 |       75.38% |       0.7176 |          0.0010 |
+|      62 |       11200 |       01:11:14 |       75.75% |       0.7019 |          0.0010 |
+|      62 |       11250 |       01:11:50 |       78.90% |       0.6172 |          0.0010 |
+|      62 |       11300 |       01:12:26 |       76.04% |       0.7209 |          0.0010 |
+|      63 |       11350 |       01:13:03 |       74.92% |       0.7255 |          0.0010 |
+|      63 |       11400 |       01:13:40 |       77.21% |       0.6429 |          0.0010 |
+|      63 |       11450 |       01:14:17 |       77.89% |       0.6412 |          0.0010 |
+|      63 |       11500 |       01:14:56 |       76.03% |       0.7130 |          0.0010 |
+|      64 |       11550 |       01:15:34 |       76.50% |       0.6988 |          0.0010 |
+|      64 |       11600 |       01:16:13 |       76.78% |       0.6812 |          0.0010 |
+|      64 |       11650 |       01:16:52 |       76.71% |       0.6792 |          0.0010 |
+|      64 |       11700 |       01:17:32 |       76.23% |       0.6910 |          0.0010 |
+|      65 |       11750 |       01:18:14 |       74.76% |       0.7276 |          0.0010 |
+|      65 |       11800 |       01:19:01 |       75.22% |       0.7211 |          0.0010 |
+|      65 |       11850 |       01:19:41 |       74.82% |       0.7329 |          0.0010 |
+|      66 |       11900 |       01:20:22 |       77.62% |       0.6396 |          0.0010 |
+|      66 |       11950 |       01:21:03 |       78.64% |       0.6469 |          0.0010 |
+|      66 |       12000 |       01:21:44 |       70.38% |       0.8568 |          0.0010 |
+|      66 |       12050 |       01:22:26 |       74.49% |       0.7436 |          0.0010 |
+|      67 |       12100 |       01:23:08 |       73.69% |       0.7434 |          0.0010 |
+|      67 |       12150 |       01:23:51 |       79.37% |       0.6228 |          0.0010 |
+|      67 |       12200 |       01:24:34 |       77.98% |       0.6370 |          0.0010 |
+|      67 |       12250 |       01:25:17 |       77.55% |       0.6484 |          0.0010 |
+|      68 |       12300 |       01:26:01 |       79.15% |       0.6199 |          0.0010 |
+|      68 |       12350 |       01:26:45 |       78.42% |       0.6530 |          0.0010 |
+|      68 |       12400 |       01:27:30 |       76.70% |       0.7010 |          0.0010 |
+|      69 |       12450 |       01:28:15 |       76.75% |       0.6811 |          0.0010 |
+|      69 |       12500 |       01:29:01 |       74.06% |       0.7575 |          0.0010 |
+|      69 |       12550 |       01:29:47 |       76.50% |       0.6689 |          0.0010 |
+|      69 |       12600 |       01:30:34 |       76.81% |       0.6859 |          0.0010 |
+|      70 |       12650 |       01:31:21 |       76.83% |       0.6693 |          0.0010 |
+|      70 |       12700 |       01:32:09 |       78.16% |       0.6488 |          0.0010 |
+|      70 |       12750 |       01:32:57 |       78.45% |       0.6419 |          0.0010 |
+|      70 |       12800 |       01:33:53 |       78.70% |       0.6282 |          0.0010 |
+|      71 |       12850 |       01:34:43 |       77.15% |       0.6565 |          0.0010 |
+|      71 |       12900 |       01:35:33 |       77.66% |       0.6563 |          0.0010 |
+|      71 |       12950 |       01:36:24 |       76.46% |       0.6959 |          0.0010 |
+|      72 |       13000 |       01:37:15 |       77.00% |       0.6526 |          0.0010 |
+|      72 |       13050 |       01:38:07 |       77.03% |       0.6726 |          0.0010 |
+|      72 |       13100 |       01:39:00 |       75.54% |       0.7051 |          0.0010 |
+|      72 |       13150 |       01:39:54 |       77.67% |       0.6572 |          0.0010 |
+|      73 |       13200 |       01:40:50 |       75.85% |       0.7141 |          0.0010 |
+|      73 |       13250 |       01:41:45 |       77.85% |       0.6476 |          0.0010 |
+|      73 |       13300 |       01:42:41 |       75.44% |       0.6974 |          0.0010 |
+|      73 |       13350 |       01:43:38 |       74.22% |       0.7343 |          0.0010 |
+|      74 |       13400 |       01:44:35 |       72.74% |       0.7652 |          0.0010 |
+|      74 |       13450 |       01:45:34 |       74.72% |       0.7419 |          0.0010 |
+|      74 |       13500 |       01:46:33 |       74.80% |       0.7237 |          0.0010 |
+|      75 |       13550 |       01:47:33 |       77.25% |       0.6578 |          0.0010 |
+|      75 |       13600 |       01:48:40 |       75.31% |       0.7189 |          0.0010 |
+|      75 |       13650 |       01:49:43 |       75.58% |       0.6974 |          0.0010 |
+|      75 |       13700 |       01:50:47 |       77.04% |       0.6600 |          0.0010 |
+|      76 |       13750 |       01:51:49 |       77.30% |       0.6417 |          0.0010 |
+|      76 |       13800 |       01:52:52 |       78.87% |       0.6204 |          0.0010 |
+|      76 |       13850 |       01:53:55 |       77.26% |       0.6702 |          0.0010 |
+|      76 |       13900 |       01:55:00 |       79.00% |       0.6249 |          0.0010 |
+|      77 |       13950 |       01:56:04 |       80.09% |       0.5930 |          0.0010 |
+|      77 |       14000 |       01:57:09 |       78.46% |       0.6276 |          0.0010 |
+|      77 |       14050 |       01:58:15 |       77.80% |       0.6473 |          0.0010 |
+|      78 |       14100 |       01:59:21 |       76.08% |       0.6936 |          0.0010 |
+|      78 |       14150 |       02:00:27 |       73.68% |       0.7419 |          0.0010 |
+|      78 |       14200 |       02:01:34 |       79.10% |       0.6236 |          0.0010 |
+|      78 |       14250 |       02:02:41 |       79.37% |       0.6185 |          0.0010 |
+|      79 |       14300 |       02:03:55 |       77.55% |       0.6491 |          0.0010 |
+|      79 |       14350 |       02:05:03 |       74.52% |       0.7250 |          0.0010 |
+|      79 |       14400 |       02:06:11 |       74.79% |       0.7434 |          0.0010 |
+|      79 |       14450 |       02:07:19 |       78.36% |       0.6307 |          0.0010 |
+|      80 |       14500 |       02:08:28 |       75.23% |       0.7090 |          0.0010 |
+|      80 |       14550 |       02:09:37 |       78.72% |       0.6356 |          0.0010 |
+|      80 |       14600 |       02:10:46 |       79.31% |       0.6207 |          0.0010 |
+|      81 |       14650 |       02:11:56 |       76.93% |       0.6745 |          0.0010 |
+|      81 |       14700 |       02:13:05 |       77.80% |       0.6560 |          0.0010 |
+|      81 |       14750 |       02:14:15 |       76.11% |       0.6878 |          0.0010 |
+|      81 |       14800 |       02:15:26 |       79.04% |       0.6187 |          0.0010 |
+|      82 |       14850 |       02:16:37 |       78.18% |       0.6541 |          0.0010 |
+|      82 |       14900 |       02:17:47 |       78.95% |       0.6193 |          0.0010 |
+|      82 |       14950 |       02:19:05 |       77.17% |       0.6609 |          0.0010 |
+|      82 |       15000 |       02:20:17 |       76.64% |       0.6879 |          0.0010 |
+|      83 |       15050 |       02:21:28 |       74.31% |       0.7558 |          0.0010 |
+|      83 |       15100 |       02:22:40 |       77.63% |       0.6634 |          0.0010 |
+|      83 |       15150 |       02:23:52 |       76.19% |       0.6876 |          0.0010 |
+|      84 |       15200 |       02:25:05 |       77.29% |       0.6333 |          0.0010 |
+|      84 |       15250 |       02:26:18 |       75.85% |       0.6953 |          0.0010 |
+|      84 |       15300 |       02:27:31 |       75.99% |       0.6794 |          0.0010 |
+|      84 |       15350 |       02:28:44 |       79.11% |       0.6174 |          0.0010 |
+|      85 |       15400 |       02:29:58 |       77.56% |       0.6634 |          0.0010 |
+|      85 |       15450 |       02:31:12 |       78.21% |       0.6596 |          0.0010 |
+|      85 |       15500 |       02:32:27 |       77.88% |       0.6595 |          0.0010 |
+|      85 |       15550 |       02:33:48 |       79.22% |       0.6296 |          0.0010 |
+|      86 |       15600 |       02:35:03 |       76.87% |       0.6892 |          0.0010 |
+|      86 |       15650 |       02:36:18 |       77.37% |       0.6674 |          0.0010 |
+|      86 |       15700 |       02:37:34 |       79.55% |       0.5885 |          0.0010 |
+|      87 |       15750 |       02:38:50 |       75.86% |       0.7063 |          0.0010 |
+|      87 |       15800 |       02:40:06 |       77.89% |       0.6215 |          0.0010 |
+|      87 |       15850 |       02:41:25 |       79.52% |       0.6154 |          0.0010 |
+|      87 |       15900 |       02:42:42 |       77.40% |       0.6693 |          0.0010 |
+|      88 |       15950 |       02:43:59 |       79.83% |       0.5871 |          0.0010 |
+|      88 |       16000 |       02:45:17 |       77.01% |       0.6476 |          0.0010 |
+|      88 |       16050 |       02:46:35 |       76.00% |       0.6782 |          0.0010 |
+|      88 |       16100 |       02:47:54 |       77.10% |       0.6817 |          0.0010 |
+|      89 |       16150 |       02:49:19 |       76.82% |       0.6705 |          0.0010 |
+|      89 |       16200 |       02:50:38 |       78.25% |       0.6225 |          0.0010 |
+|      89 |       16250 |       02:51:57 |       79.19% |       0.6059 |          0.0010 |
+|      90 |       16300 |       02:53:17 |       77.68% |       0.6582 |          0.0010 |
+|      90 |       16350 |       02:54:36 |       77.58% |       0.6423 |          0.0010 |
+|      90 |       16400 |       02:55:56 |       77.41% |       0.6553 |          0.0010 |
+|      90 |       16450 |       02:57:16 |       78.66% |       0.6306 |          0.0010 |
+|      91 |       16500 |       02:58:36 |       76.64% |       0.6806 |          0.0010 |
+|      91 |       16550 |       02:59:57 |       75.93% |       0.7145 |          0.0010 |
+|      91 |       16600 |       03:01:17 |       77.78% |       0.6477 |          0.0010 |
+|      91 |       16650 |       03:02:38 |       79.15% |       0.6078 |          0.0010 |
+|      92 |       16700 |       03:04:05 |       81.17% |       0.5660 |          0.0010 |
+|      92 |       16750 |       03:05:26 |       77.36% |       0.6514 |          0.0010 |
+|      92 |       16800 |       03:06:47 |       77.15% |       0.6452 |          0.0010 |
+|      93 |       16850 |       03:08:08 |       79.76% |       0.6128 |          0.0010 |
+|      93 |       16900 |       03:09:30 |       78.03% |       0.6478 |          0.0010 |
+|      93 |       16950 |       03:10:51 |       77.99% |       0.6343 |          0.0010 |
+|      93 |       17000 |       03:12:12 |       77.81% |       0.6606 |          0.0010 |
+|      94 |       17050 |       03:13:34 |       77.36% |       0.6395 |          0.0010 |
+|      94 |       17100 |       03:14:56 |       78.42% |       0.6566 |          0.0010 |
+|      94 |       17150 |       03:16:18 |       78.11% |       0.6358 |          0.0010 |
+|      94 |       17200 |       03:17:39 |       78.07% |       0.6429 |          0.0010 |
+|      95 |       17250 |       03:19:08 |       77.10% |       0.6946 |          0.0010 |
+|      95 |       17300 |       03:20:30 |       77.53% |       0.6542 |          0.0010 |
+|      95 |       17350 |       03:21:51 |       78.72% |       0.6189 |          0.0010 |
+|      96 |       17400 |       03:23:13 |       77.25% |       0.6804 |          0.0010 |
+|      96 |       17450 |       03:24:35 |       77.69% |       0.6609 |          0.0010 |
+|      96 |       17500 |       03:25:57 |       77.15% |       0.6645 |          0.0010 |
+|      96 |       17550 |       03:27:19 |       76.92% |       0.6779 |          0.0010 |
+|      97 |       17600 |       03:28:41 |       78.14% |       0.6419 |          0.0010 |
+|      97 |       17650 |       03:30:02 |       77.29% |       0.6657 |          0.0010 |
+|      97 |       17700 |       03:31:25 |       77.64% |       0.6559 |          0.0010 |
+|      97 |       17750 |       03:32:47 |       77.83% |       0.6518 |          0.0010 |
+|      98 |       17800 |       03:34:16 |       79.31% |       0.6238 |          0.0010 |
+|      98 |       17850 |       03:35:38 |       79.57% |       0.6041 |          0.0010 |
+|      98 |       17900 |       03:37:00 |       79.94% |       0.5927 |          0.0010 |
+|      99 |       17950 |       03:38:22 |       80.30% |       0.5928 |          0.0010 |
+|      99 |       18000 |       03:39:44 |       78.80% |       0.6360 |          0.0010 |
+|      99 |       18050 |       03:41:08 |       77.98% |       0.6528 |          0.0010 |
+|      99 |       18100 |       03:42:30 |       79.55% |       0.6057 |          0.0010 |
+|     100 |       18150 |       03:43:52 |       78.43% |       0.6318 |          0.0010 |
+|     100 |       18200 |       03:45:14 |       76.73% |       0.6611 |          0.0010 |
+|     100 |       18250 |       03:46:37 |       79.25% |       0.6252 |          0.0010 |
+|     100 |       18300 |       03:47:59 |       77.22% |       0.6698 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |        5.67% |       8.2211 |          0.0010 |
+|       1 |          50 |       00:00:14 |        5.58% |       2.7026 |          0.0010 |
+|       1 |         100 |       00:00:30 |       15.26% |       2.3770 |          0.0010 |
+|       1 |         150 |       00:00:47 |       23.79% |       2.1134 |          0.0010 |
+|       2 |         200 |       00:01:03 |       31.29% |       1.9904 |          0.0010 |
+|       2 |         250 |       00:01:19 |       28.58% |       1.9202 |          0.0010 |
+|       2 |         300 |       00:01:36 |       38.88% |       1.8080 |          0.0010 |
+|       2 |         350 |       00:01:52 |       34.09% |       1.8584 |          0.0010 |
+|       3 |         400 |       00:02:08 |       31.84% |       1.8557 |          0.0010 |
+|       3 |         450 |       00:02:25 |       32.54% |       1.8492 |          0.0010 |
+|       3 |         500 |       00:02:41 |       39.21% |       1.7039 |          0.0010 |
+|       4 |         550 |       00:02:58 |       36.05% |       1.7832 |          0.0010 |
+|       4 |         600 |       00:03:14 |       37.51% |       1.7185 |          0.0010 |
+|       4 |         650 |       00:03:30 |       44.27% |       1.6180 |          0.0010 |
+|       4 |         700 |       00:03:47 |       43.75% |       1.6236 |          0.0010 |
+|       5 |         750 |       00:04:03 |       43.89% |       1.5989 |          0.0010 |
+|       5 |         800 |       00:04:20 |       46.99% |       1.5519 |          0.0010 |
+|       5 |         850 |       00:04:36 |       45.71% |       1.5716 |          0.0010 |
+|       5 |         900 |       00:04:52 |       50.40% |       1.4504 |          0.0010 |
+|       6 |         950 |       00:05:09 |       49.75% |       1.4700 |          0.0010 |
+|       6 |        1000 |       00:05:25 |       48.97% |       1.4158 |          0.0010 |
+|       6 |        1050 |       00:05:41 |       48.58% |       1.4594 |          0.0010 |
+|       7 |        1100 |       00:05:58 |       48.35% |       1.4621 |          0.0010 |
+|       7 |        1150 |       00:06:14 |       48.72% |       1.4438 |          0.0010 |
+|       7 |        1200 |       00:06:30 |       51.10% |       1.3948 |          0.0010 |
+|       7 |        1250 |       00:06:47 |       46.56% |       1.4803 |          0.0010 |
+|       8 |        1300 |       00:07:03 |       47.54% |       1.4612 |          0.0010 |
+|       8 |        1350 |       00:07:20 |       48.22% |       1.4455 |          0.0010 |
+|       8 |        1400 |       00:07:36 |       51.51% |       1.3632 |          0.0010 |
+|       8 |        1450 |       00:07:53 |       53.93% |       1.3128 |          0.0010 |
+|       9 |        1500 |       00:08:09 |       49.69% |       1.3779 |          0.0010 |
+|       9 |        1550 |       00:08:25 |       49.53% |       1.4133 |          0.0010 |
+|       9 |        1600 |       00:08:42 |       52.05% |       1.3606 |          0.0010 |
+|      10 |        1650 |       00:08:58 |       52.12% |       1.3199 |          0.0010 |
+|      10 |        1700 |       00:09:15 |       53.75% |       1.3389 |          0.0010 |
+|      10 |        1750 |       00:09:31 |       53.78% |       1.2915 |          0.0010 |
+|      10 |        1800 |       00:09:48 |       53.85% |       1.2595 |          0.0010 |
+|      11 |        1850 |       00:10:04 |       53.28% |       1.3239 |          0.0010 |
+|      11 |        1900 |       00:10:21 |       53.28% |       1.3026 |          0.0010 |
+|      11 |        1950 |       00:10:37 |       54.50% |       1.2663 |          0.0010 |
+|      11 |        2000 |       00:10:54 |       51.93% |       1.3136 |          0.0010 |
+|      12 |        2050 |       00:11:10 |       59.54% |       1.1877 |          0.0010 |
+|      12 |        2100 |       00:11:27 |       56.33% |       1.2423 |          0.0010 |
+|      12 |        2150 |       00:11:43 |       57.16% |       1.2189 |          0.0010 |
+|      13 |        2200 |       00:12:00 |       57.11% |       1.2178 |          0.0010 |
+|      13 |        2250 |       00:12:16 |       56.74% |       1.2194 |          0.0010 |
+|      13 |        2300 |       00:12:33 |       60.89% |       1.1333 |          0.0010 |
+|      13 |        2350 |       00:12:50 |       58.79% |       1.1681 |          0.0010 |
+|      14 |        2400 |       00:13:06 |       57.23% |       1.2370 |          0.0010 |
+|      14 |        2450 |       00:13:22 |       59.42% |       1.1589 |          0.0010 |
+|      14 |        2500 |       00:13:39 |       58.55% |       1.1808 |          0.0010 |
+|      14 |        2550 |       00:13:56 |       61.15% |       1.1263 |          0.0010 |
+|      15 |        2600 |       00:14:15 |       60.04% |       1.1492 |          0.0010 |
+|      15 |        2650 |       00:14:37 |       60.89% |       1.1230 |          0.0010 |
+|      15 |        2700 |       00:14:54 |       64.24% |       1.0395 |          0.0010 |
+|      16 |        2750 |       00:15:11 |       58.10% |       1.1780 |          0.0010 |
+|      16 |        2800 |       00:15:28 |       61.84% |       1.0863 |          0.0010 |
+|      16 |        2850 |       00:15:44 |       59.37% |       1.1308 |          0.0010 |
+|      16 |        2900 |       00:16:01 |       60.67% |       1.1276 |          0.0010 |
+|      17 |        2950 |       00:16:17 |       64.47% |       1.0303 |          0.0010 |
+|      17 |        3000 |       00:16:34 |       61.89% |       1.0921 |          0.0010 |
+|      17 |        3050 |       00:16:50 |       61.64% |       1.0714 |          0.0010 |
+|      17 |        3100 |       00:17:07 |       61.46% |       1.0711 |          0.0010 |
+|      18 |        3150 |       00:17:24 |       62.96% |       1.0529 |          0.0010 |
+|      18 |        3200 |       00:17:40 |       65.82% |       0.9815 |          0.0010 |
+|      18 |        3250 |       00:17:57 |       62.76% |       1.0675 |          0.0010 |
+|      19 |        3300 |       00:18:13 |       65.14% |       1.0074 |          0.0010 |
+|      19 |        3350 |       00:18:30 |       68.22% |       0.9388 |          0.0010 |
+|      19 |        3400 |       00:18:46 |       65.69% |       0.9660 |          0.0010 |
+|      19 |        3450 |       00:19:03 |       64.74% |       1.0106 |          0.0010 |
+|      20 |        3500 |       00:19:19 |       63.07% |       1.0461 |          0.0010 |
+|      20 |        3550 |       00:19:36 |       64.44% |       1.0352 |          0.0010 |
+|      20 |        3600 |       00:19:53 |       64.05% |       1.0223 |          0.0010 |
+|      20 |        3650 |       00:20:09 |       65.03% |       0.9820 |          0.0010 |
+|      21 |        3700 |       00:20:26 |       65.04% |       0.9760 |          0.0010 |
+|      21 |        3750 |       00:20:42 |       67.20% |       0.9270 |          0.0010 |
+|      21 |        3800 |       00:20:59 |       66.53% |       0.9664 |          0.0010 |
+|      22 |        3850 |       00:21:15 |       69.56% |       0.8677 |          0.0010 |
+|      22 |        3900 |       00:21:32 |       65.98% |       0.9614 |          0.0010 |
+|      22 |        3950 |       00:21:48 |       67.59% |       0.9358 |          0.0010 |
+|      22 |        4000 |       00:22:05 |       67.78% |       0.9412 |          0.0010 |
+|      23 |        4050 |       00:22:22 |       68.93% |       0.8943 |          0.0010 |
+|      23 |        4100 |       00:22:38 |       63.44% |       1.0250 |          0.0010 |
+|      23 |        4150 |       00:22:55 |       67.32% |       0.9451 |          0.0010 |
+|      23 |        4200 |       00:23:11 |       71.18% |       0.8384 |          0.0010 |
+|      24 |        4250 |       00:23:28 |       70.79% |       0.8524 |          0.0010 |
+|      24 |        4300 |       00:23:44 |       69.50% |       0.8867 |          0.0010 |
+|      24 |        4350 |       00:24:01 |       67.18% |       0.9446 |          0.0010 |
+|      25 |        4400 |       00:24:17 |       67.15% |       0.9407 |          0.0010 |
+|      25 |        4450 |       00:24:34 |       69.90% |       0.8585 |          0.0010 |
+|      25 |        4500 |       00:24:50 |       68.18% |       0.9178 |          0.0010 |
+|      25 |        4550 |       00:25:07 |       72.31% |       0.8054 |          0.0010 |
+|      26 |        4600 |       00:25:23 |       65.88% |       0.9791 |          0.0010 |
+|      26 |        4650 |       00:25:41 |       69.42% |       0.8935 |          0.0010 |
+|      26 |        4700 |       00:25:57 |       69.42% |       0.8749 |          0.0010 |
+|      26 |        4750 |       00:26:14 |       68.28% |       0.9227 |          0.0010 |
+|      27 |        4800 |       00:26:30 |       71.87% |       0.8326 |          0.0010 |
+|      27 |        4850 |       00:26:47 |       68.02% |       0.9169 |          0.0010 |
+|      27 |        4900 |       00:27:03 |       69.43% |       0.8790 |          0.0010 |
+|      28 |        4950 |       00:27:20 |       68.87% |       0.8901 |          0.0010 |
+|      28 |        5000 |       00:27:36 |       69.47% |       0.8715 |          0.0010 |
+|      28 |        5050 |       00:27:53 |       71.75% |       0.8435 |          0.0010 |
+|      28 |        5100 |       00:28:09 |       70.81% |       0.8757 |          0.0010 |
+|      29 |        5150 |       00:28:26 |       71.71% |       0.8311 |          0.0010 |
+|      29 |        5200 |       00:28:43 |       73.39% |       0.7870 |          0.0010 |
+|      29 |        5250 |       00:28:59 |       70.95% |       0.8421 |          0.0010 |
+|      29 |        5300 |       00:29:19 |       67.85% |       0.9257 |          0.0010 |
+|      30 |        5350 |       00:29:41 |       68.98% |       0.8671 |          0.0010 |
+|      30 |        5400 |       00:29:58 |       70.43% |       0.8594 |          0.0010 |
+|      30 |        5450 |       00:30:15 |       69.36% |       0.8903 |          0.0010 |
+|      31 |        5500 |       00:30:31 |       71.28% |       0.7993 |          0.0010 |
+|      31 |        5550 |       00:30:48 |       72.17% |       0.8056 |          0.0010 |
+|      31 |        5600 |       00:31:04 |       72.99% |       0.7812 |          0.0010 |
+|      31 |        5650 |       00:31:21 |       69.58% |       0.8753 |          0.0010 |
+|      32 |        5700 |       00:31:38 |       72.78% |       0.7993 |          0.0010 |
+|      32 |        5750 |       00:31:54 |       73.12% |       0.7857 |          0.0010 |
+|      32 |        5800 |       00:32:11 |       71.80% |       0.8079 |          0.0010 |
+|      32 |        5850 |       00:32:27 |       70.62% |       0.8508 |          0.0010 |
+|      33 |        5900 |       00:32:44 |       70.95% |       0.8431 |          0.0010 |
+|      33 |        5950 |       00:33:01 |       70.23% |       0.8727 |          0.0010 |
+|      33 |        6000 |       00:33:17 |       73.10% |       0.8016 |          0.0010 |
+|      34 |        6050 |       00:33:34 |       74.60% |       0.7294 |          0.0010 |
+|      34 |        6100 |       00:33:51 |       71.17% |       0.8462 |          0.0010 |
+|      34 |        6150 |       00:34:07 |       72.10% |       0.8210 |          0.0010 |
+|      34 |        6200 |       00:34:24 |       69.11% |       0.8668 |          0.0010 |
+|      35 |        6250 |       00:34:41 |       72.73% |       0.7831 |          0.0010 |
+|      35 |        6300 |       00:34:58 |       74.24% |       0.7609 |          0.0010 |
+|      35 |        6350 |       00:35:14 |       73.83% |       0.7642 |          0.0010 |
+|      35 |        6400 |       00:35:31 |       72.41% |       0.7957 |          0.0010 |
+|      36 |        6450 |       00:35:48 |       74.20% |       0.7505 |          0.0010 |
+|      36 |        6500 |       00:36:06 |       71.32% |       0.8274 |          0.0010 |
+|      36 |        6550 |       00:36:23 |       74.04% |       0.7624 |          0.0010 |
+|      37 |        6600 |       00:36:40 |       73.12% |       0.7913 |          0.0010 |
+|      37 |        6650 |       00:36:57 |       71.92% |       0.8256 |          0.0010 |
+|      37 |        6700 |       00:37:14 |       72.65% |       0.7960 |          0.0010 |
+|      37 |        6750 |       00:37:31 |       74.69% |       0.7425 |          0.0010 |
+|      38 |        6800 |       00:37:48 |       73.07% |       0.7775 |          0.0010 |
+|      38 |        6850 |       00:38:06 |       73.15% |       0.7597 |          0.0010 |
+|      38 |        6900 |       00:38:23 |       74.75% |       0.7491 |          0.0010 |
+|      38 |        6950 |       00:38:40 |       72.97% |       0.7976 |          0.0010 |
+|      39 |        7000 |       00:38:58 |       74.56% |       0.7553 |          0.0010 |
+|      39 |        7050 |       00:39:15 |       73.81% |       0.7558 |          0.0010 |
+|      39 |        7100 |       00:39:32 |       72.03% |       0.8055 |          0.0010 |
+|      40 |        7150 |       00:39:50 |       73.79% |       0.7565 |          0.0010 |
+|      40 |        7200 |       00:40:07 |       73.80% |       0.7691 |          0.0010 |
+|      40 |        7250 |       00:40:25 |       76.45% |       0.7096 |          0.0010 |
+|      40 |        7300 |       00:40:42 |       72.98% |       0.7902 |          0.0010 |
+|      41 |        7350 |       00:41:00 |       75.70% |       0.7185 |          0.0010 |
+|      41 |        7400 |       00:41:18 |       72.76% |       0.8087 |          0.0010 |
+|      41 |        7450 |       00:41:35 |       75.57% |       0.7054 |          0.0010 |
+|      41 |        7500 |       00:41:53 |       74.11% |       0.7671 |          0.0010 |
+|      42 |        7550 |       00:42:11 |       75.51% |       0.7261 |          0.0010 |
+|      42 |        7600 |       00:42:29 |       73.81% |       0.7479 |          0.0010 |
+|      42 |        7650 |       00:42:47 |       78.28% |       0.6517 |          0.0010 |
+|      43 |        7700 |       00:43:05 |       76.32% |       0.7069 |          0.0010 |
+|      43 |        7750 |       00:43:23 |       73.42% |       0.7757 |          0.0010 |
+|      43 |        7800 |       00:43:41 |       71.91% |       0.8183 |          0.0010 |
+|      43 |        7850 |       00:43:59 |       73.86% |       0.7844 |          0.0010 |
+|      44 |        7900 |       00:44:21 |       73.78% |       0.7617 |          0.0010 |
+|      44 |        7950 |       00:44:44 |       74.46% |       0.7514 |          0.0010 |
+|      44 |        8000 |       00:45:02 |       74.80% |       0.7324 |          0.0010 |
+|      44 |        8050 |       00:45:20 |       76.88% |       0.6748 |          0.0010 |
+|      45 |        8100 |       00:45:39 |       75.42% |       0.7384 |          0.0010 |
+|      45 |        8150 |       00:45:57 |       73.90% |       0.7641 |          0.0010 |
+|      45 |        8200 |       00:46:15 |       74.34% |       0.7526 |          0.0010 |
+|      46 |        8250 |       00:46:34 |       76.17% |       0.6915 |          0.0010 |
+|      46 |        8300 |       00:46:53 |       77.85% |       0.6653 |          0.0010 |
+|      46 |        8350 |       00:47:11 |       74.70% |       0.7289 |          0.0010 |
+|      46 |        8400 |       00:47:30 |       75.45% |       0.7525 |          0.0010 |
+|      47 |        8450 |       00:47:49 |       75.92% |       0.7116 |          0.0010 |
+|      47 |        8500 |       00:48:08 |       75.73% |       0.7010 |          0.0010 |
+|      47 |        8550 |       00:48:27 |       73.72% |       0.7556 |          0.0010 |
+|      47 |        8600 |       00:48:46 |       75.52% |       0.7277 |          0.0010 |
+|      48 |        8650 |       00:49:05 |       76.23% |       0.6998 |          0.0010 |
+|      48 |        8700 |       00:49:24 |       76.78% |       0.7034 |          0.0010 |
+|      48 |        8750 |       00:49:44 |       74.42% |       0.7298 |          0.0010 |
+|      49 |        8800 |       00:50:03 |       75.40% |       0.7067 |          0.0010 |
+|      49 |        8850 |       00:50:22 |       75.20% |       0.7253 |          0.0010 |
+|      49 |        8900 |       00:50:42 |       78.49% |       0.6578 |          0.0010 |
+|      49 |        8950 |       00:51:02 |       72.47% |       0.8097 |          0.0010 |
+|      50 |        9000 |       00:51:22 |       75.95% |       0.6888 |          0.0010 |
+|      50 |        9050 |       00:51:42 |       76.75% |       0.7091 |          0.0010 |
+|      50 |        9100 |       00:52:04 |       75.68% |       0.7113 |          0.0010 |
+|      50 |        9150 |       00:52:24 |       76.24% |       0.6972 |          0.0010 |
+|      51 |        9200 |       00:52:45 |       74.09% |       0.7561 |          0.0010 |
+|      51 |        9250 |       00:53:06 |       76.38% |       0.6952 |          0.0010 |
+|      51 |        9300 |       00:53:26 |       74.84% |       0.7184 |          0.0010 |
+|      52 |        9350 |       00:53:47 |       76.90% |       0.6796 |          0.0010 |
+|      52 |        9400 |       00:54:08 |       75.93% |       0.7053 |          0.0010 |
+|      52 |        9450 |       00:54:29 |       77.46% |       0.6622 |          0.0010 |
+|      52 |        9500 |       00:54:50 |       75.86% |       0.6989 |          0.0010 |
+|      53 |        9550 |       00:55:12 |       75.90% |       0.6996 |          0.0010 |
+|      53 |        9600 |       00:55:33 |       74.63% |       0.7350 |          0.0010 |
+|      53 |        9650 |       00:55:55 |       77.50% |       0.6608 |          0.0010 |
+|      54 |        9700 |       00:56:17 |       75.07% |       0.7270 |          0.0010 |
+|      54 |        9750 |       00:56:39 |       75.83% |       0.7058 |          0.0010 |
+|      54 |        9800 |       00:57:01 |       78.43% |       0.6487 |          0.0010 |
+|      54 |        9850 |       00:57:23 |       74.02% |       0.7720 |          0.0010 |
+|      55 |        9900 |       00:57:46 |       78.29% |       0.6525 |          0.0010 |
+|      55 |        9950 |       00:58:09 |       77.89% |       0.6466 |          0.0010 |
+|      55 |       10000 |       00:58:32 |       73.83% |       0.7430 |          0.0010 |
+|      55 |       10050 |       00:58:55 |       79.38% |       0.6328 |          0.0010 |
+|      56 |       10100 |       00:59:22 |       79.77% |       0.6169 |          0.0010 |
+|      56 |       10150 |       00:59:49 |       77.32% |       0.6707 |          0.0010 |
+|      56 |       10200 |       01:00:13 |       77.44% |       0.6831 |          0.0010 |
+|      57 |       10250 |       01:00:37 |       76.38% |       0.7000 |          0.0010 |
+|      57 |       10300 |       01:01:01 |       78.30% |       0.6495 |          0.0010 |
+|      57 |       10350 |       01:01:25 |       77.47% |       0.6721 |          0.0010 |
+|      57 |       10400 |       01:01:49 |       73.47% |       0.7713 |          0.0010 |
+|      58 |       10450 |       01:02:14 |       75.84% |       0.7081 |          0.0010 |
+|      58 |       10500 |       01:02:38 |       74.22% |       0.7457 |          0.0010 |
+|      58 |       10550 |       01:03:03 |       77.43% |       0.6603 |          0.0010 |
+|      58 |       10600 |       01:03:28 |       77.98% |       0.6627 |          0.0010 |
+|      59 |       10650 |       01:03:53 |       77.54% |       0.6704 |          0.0010 |
+|      59 |       10700 |       01:04:19 |       75.50% |       0.7149 |          0.0010 |
+|      59 |       10750 |       01:04:44 |       77.99% |       0.6606 |          0.0010 |
+|      60 |       10800 |       01:05:11 |       77.96% |       0.6514 |          0.0010 |
+|      60 |       10850 |       01:05:37 |       76.75% |       0.6820 |          0.0010 |
+|      60 |       10900 |       01:06:04 |       75.80% |       0.7096 |          0.0010 |
+|      60 |       10950 |       01:06:31 |       77.30% |       0.6776 |          0.0010 |
+|      61 |       11000 |       01:06:59 |       75.42% |       0.7402 |          0.0010 |
+|      61 |       11050 |       01:07:27 |       75.61% |       0.7226 |          0.0010 |
+|      61 |       11100 |       01:07:55 |       77.30% |       0.6664 |          0.0010 |
+|      61 |       11150 |       01:08:24 |       75.35% |       0.7277 |          0.0010 |
+|      62 |       11200 |       01:08:53 |       78.47% |       0.6413 |          0.0010 |
+|      62 |       11250 |       01:09:22 |       75.24% |       0.7146 |          0.0010 |
+|      62 |       11300 |       01:09:52 |       76.41% |       0.6876 |          0.0010 |
+|      63 |       11350 |       01:10:22 |       77.25% |       0.6755 |          0.0010 |
+|      63 |       11400 |       01:10:53 |       75.56% |       0.7183 |          0.0010 |
+|      63 |       11450 |       01:11:23 |       77.31% |       0.6797 |          0.0010 |
+|      63 |       11500 |       01:11:55 |       77.25% |       0.6705 |          0.0010 |
+|      64 |       11550 |       01:12:26 |       76.52% |       0.6975 |          0.0010 |
+|      64 |       11600 |       01:12:58 |       76.63% |       0.6759 |          0.0010 |
+|      64 |       11650 |       01:13:30 |       73.71% |       0.7670 |          0.0010 |
+|      64 |       11700 |       01:14:02 |       77.49% |       0.6695 |          0.0010 |
+|      65 |       11750 |       01:14:43 |       78.64% |       0.6419 |          0.0010 |
+|      65 |       11800 |       01:15:16 |       77.28% |       0.6831 |          0.0010 |
+|      65 |       11850 |       01:15:49 |       79.10% |       0.6276 |          0.0010 |
+|      66 |       11900 |       01:16:23 |       76.43% |       0.6930 |          0.0010 |
+|      66 |       11950 |       01:16:58 |       77.68% |       0.6581 |          0.0010 |
+|      66 |       12000 |       01:17:32 |       77.63% |       0.6565 |          0.0010 |
+|      66 |       12050 |       01:18:07 |       75.51% |       0.7105 |          0.0010 |
+|      67 |       12100 |       01:18:43 |       79.29% |       0.6250 |          0.0010 |
+|      67 |       12150 |       01:19:18 |       76.03% |       0.7008 |          0.0010 |
+|      67 |       12200 |       01:19:54 |       77.17% |       0.6701 |          0.0010 |
+|      67 |       12250 |       01:20:31 |       78.04% |       0.6396 |          0.0010 |
+|      68 |       12300 |       01:21:07 |       79.09% |       0.6367 |          0.0010 |
+|      68 |       12350 |       01:21:44 |       78.88% |       0.6337 |          0.0010 |
+|      68 |       12400 |       01:22:22 |       75.82% |       0.7122 |          0.0010 |
+|      69 |       12450 |       01:22:59 |       79.26% |       0.6183 |          0.0010 |
+|      69 |       12500 |       01:23:38 |       79.57% |       0.6224 |          0.0010 |
+|      69 |       12550 |       01:24:17 |       78.39% |       0.6406 |          0.0010 |
+|      69 |       12600 |       01:24:56 |       78.23% |       0.6318 |          0.0010 |
+|      70 |       12650 |       01:25:37 |       77.73% |       0.6630 |          0.0010 |
+|      70 |       12700 |       01:26:17 |       77.50% |       0.6788 |          0.0010 |
+|      70 |       12750 |       01:26:58 |       76.21% |       0.7027 |          0.0010 |
+|      70 |       12800 |       01:27:39 |       78.88% |       0.6247 |          0.0010 |
+|      71 |       12850 |       01:28:21 |       77.40% |       0.6562 |          0.0010 |
+|      71 |       12900 |       01:29:03 |       77.35% |       0.6560 |          0.0010 |
+|      71 |       12950 |       01:29:53 |       76.97% |       0.6687 |          0.0010 |
+|      72 |       13000 |       01:30:36 |       80.60% |       0.5858 |          0.0010 |
+|      72 |       13050 |       01:31:19 |       76.66% |       0.6842 |          0.0010 |
+|      72 |       13100 |       01:32:03 |       79.03% |       0.6330 |          0.0010 |
+|      72 |       13150 |       01:32:47 |       78.01% |       0.6692 |          0.0010 |
+|      73 |       13200 |       01:33:32 |       79.17% |       0.6220 |          0.0010 |
+|      73 |       13250 |       01:34:16 |       76.94% |       0.6761 |          0.0010 |
+|      73 |       13300 |       01:35:02 |       78.38% |       0.6511 |          0.0010 |
+|      73 |       13350 |       01:35:47 |       78.47% |       0.6220 |          0.0010 |
+|      74 |       13400 |       01:36:33 |       79.73% |       0.5969 |          0.0010 |
+|      74 |       13450 |       01:37:20 |       78.85% |       0.6309 |          0.0010 |
+|      74 |       13500 |       01:38:07 |       78.77% |       0.6384 |          0.0010 |
+|      75 |       13550 |       01:38:54 |       78.19% |       0.6436 |          0.0010 |
+|      75 |       13600 |       01:39:42 |       79.19% |       0.6142 |          0.0010 |
+|      75 |       13650 |       01:40:30 |       77.25% |       0.6751 |          0.0010 |
+|      75 |       13700 |       01:41:18 |       80.20% |       0.5936 |          0.0010 |
+|      76 |       13750 |       01:42:08 |       76.86% |       0.6818 |          0.0010 |
+|      76 |       13800 |       01:42:57 |       77.43% |       0.6581 |          0.0010 |
+|      76 |       13850 |       01:43:47 |       78.02% |       0.6519 |          0.0010 |
+|      76 |       13900 |       01:44:45 |       78.07% |       0.6568 |          0.0010 |
+|      77 |       13950 |       01:45:37 |       80.27% |       0.5965 |          0.0010 |
+|      77 |       14000 |       01:46:29 |       76.93% |       0.6750 |          0.0010 |
+|      77 |       14050 |       01:47:21 |       77.83% |       0.6772 |          0.0010 |
+|      78 |       14100 |       01:48:14 |       78.01% |       0.6481 |          0.0010 |
+|      78 |       14150 |       01:49:07 |       78.22% |       0.6525 |          0.0010 |
+|      78 |       14200 |       01:50:01 |       79.64% |       0.6264 |          0.0010 |
+|      78 |       14250 |       01:50:56 |       78.85% |       0.6521 |          0.0010 |
+|      79 |       14300 |       01:51:51 |       80.18% |       0.5995 |          0.0010 |
+|      79 |       14350 |       01:52:49 |       80.11% |       0.5963 |          0.0010 |
+|      79 |       14400 |       01:53:45 |       78.22% |       0.6540 |          0.0010 |
+|      79 |       14450 |       01:54:42 |       76.69% |       0.7071 |          0.0010 |
+|      80 |       14500 |       01:55:40 |       77.54% |       0.6445 |          0.0010 |
+|      80 |       14550 |       01:56:38 |       78.83% |       0.6365 |          0.0010 |
+|      80 |       14600 |       01:57:37 |       78.57% |       0.6423 |          0.0010 |
+|      81 |       14650 |       01:58:36 |       79.06% |       0.6109 |          0.0010 |
+|      81 |       14700 |       01:59:43 |       79.08% |       0.6339 |          0.0010 |
+|      81 |       14750 |       02:00:44 |       79.33% |       0.6059 |          0.0010 |
+|      81 |       14800 |       02:01:49 |       77.10% |       0.6645 |          0.0010 |
+|      82 |       14850 |       02:02:51 |       80.09% |       0.5997 |          0.0010 |
+|      82 |       14900 |       02:03:53 |       80.29% |       0.5898 |          0.0010 |
+|      82 |       14950 |       02:04:56 |       79.13% |       0.6209 |          0.0010 |
+|      82 |       15000 |       02:05:59 |       77.82% |       0.6511 |          0.0010 |
+|      83 |       15050 |       02:07:04 |       78.27% |       0.6405 |          0.0010 |
+|      83 |       15100 |       02:08:09 |       77.36% |       0.6663 |          0.0010 |
+|      83 |       15150 |       02:09:14 |       80.11% |       0.6042 |          0.0010 |
+|      84 |       15200 |       02:10:20 |       80.63% |       0.5658 |          0.0010 |
+|      84 |       15250 |       02:11:27 |       76.97% |       0.6829 |          0.0010 |
+|      84 |       15300 |       02:12:34 |       77.65% |       0.6599 |          0.0010 |
+|      84 |       15350 |       02:13:42 |       78.60% |       0.6293 |          0.0010 |
+|      85 |       15400 |       02:14:57 |       79.96% |       0.5994 |          0.0010 |
+|      85 |       15450 |       02:16:06 |       80.78% |       0.5811 |          0.0010 |
+|      85 |       15500 |       02:17:15 |       80.08% |       0.5950 |          0.0010 |
+|      85 |       15550 |       02:18:25 |       79.95% |       0.5997 |          0.0010 |
+|      86 |       15600 |       02:19:36 |       81.19% |       0.5663 |          0.0010 |
+|      86 |       15650 |       02:20:46 |       77.77% |       0.6664 |          0.0010 |
+|      86 |       15700 |       02:21:57 |       78.91% |       0.6217 |          0.0010 |
+|      87 |       15750 |       02:23:09 |       78.91% |       0.6350 |          0.0010 |
+|      87 |       15800 |       02:24:20 |       78.63% |       0.6452 |          0.0010 |
+|      87 |       15850 |       02:25:32 |       79.61% |       0.6173 |          0.0010 |
+|      87 |       15900 |       02:26:45 |       80.74% |       0.5889 |          0.0010 |
+|      88 |       15950 |       02:27:57 |       80.16% |       0.6005 |          0.0010 |
+|      88 |       16000 |       02:29:11 |       79.16% |       0.6027 |          0.0010 |
+|      88 |       16050 |       02:30:29 |       79.35% |       0.6293 |          0.0010 |
+|      88 |       16100 |       02:31:42 |       79.27% |       0.6328 |          0.0010 |
+|      89 |       16150 |       02:32:56 |       79.60% |       0.6183 |          0.0010 |
+|      89 |       16200 |       02:34:09 |       80.30% |       0.5966 |          0.0010 |
+|      89 |       16250 |       02:35:22 |       80.11% |       0.6038 |          0.0010 |
+|      90 |       16300 |       02:36:36 |       79.95% |       0.5924 |          0.0010 |
+|      90 |       16350 |       02:37:50 |       78.94% |       0.6313 |          0.0010 |
+|      90 |       16400 |       02:39:04 |       80.42% |       0.6032 |          0.0010 |
+|      90 |       16450 |       02:40:18 |       78.47% |       0.6351 |          0.0010 |
+|      91 |       16500 |       02:41:34 |       80.74% |       0.5789 |          0.0010 |
+|      91 |       16550 |       02:42:48 |       77.93% |       0.6644 |          0.0010 |
+|      91 |       16600 |       02:44:03 |       81.10% |       0.5600 |          0.0010 |
+|      91 |       16650 |       02:45:24 |       80.12% |       0.6035 |          0.0010 |
+|      92 |       16700 |       02:46:39 |       80.07% |       0.6041 |          0.0010 |
+|      92 |       16750 |       02:47:53 |       80.00% |       0.5968 |          0.0010 |
+|      92 |       16800 |       02:49:08 |       81.99% |       0.5423 |          0.0010 |
+|      93 |       16850 |       02:50:23 |       80.12% |       0.6019 |          0.0010 |
+|      93 |       16900 |       02:51:38 |       78.98% |       0.6313 |          0.0010 |
+|      93 |       16950 |       02:52:55 |       76.96% |       0.6873 |          0.0010 |
+|      93 |       17000 |       02:54:11 |       78.51% |       0.6495 |          0.0010 |
+|      94 |       17050 |       02:55:26 |       80.60% |       0.5806 |          0.0010 |
+|      94 |       17100 |       02:56:41 |       79.73% |       0.6044 |          0.0010 |
+|      94 |       17150 |       02:57:57 |       80.53% |       0.5900 |          0.0010 |
+|      94 |       17200 |       02:59:14 |       81.19% |       0.5679 |          0.0010 |
+|      95 |       17250 |       03:00:35 |       80.16% |       0.6091 |          0.0010 |
+|      95 |       17300 |       03:01:51 |       78.94% |       0.6336 |          0.0010 |
+|      95 |       17350 |       03:03:06 |       78.45% |       0.6295 |          0.0010 |
+|      96 |       17400 |       03:04:22 |       80.62% |       0.5715 |          0.0010 |
+|      96 |       17450 |       03:05:38 |       81.04% |       0.5818 |          0.0010 |
+|      96 |       17500 |       03:06:55 |       78.58% |       0.6335 |          0.0010 |
+|      96 |       17550 |       03:08:11 |       79.78% |       0.6285 |          0.0010 |
+|      97 |       17600 |       03:09:27 |       79.87% |       0.6038 |          0.0010 |
+|      97 |       17650 |       03:10:43 |       79.61% |       0.6058 |          0.0010 |
+|      97 |       17700 |       03:12:00 |       78.18% |       0.6495 |          0.0010 |
+|      97 |       17750 |       03:13:16 |       79.77% |       0.6125 |          0.0010 |
+|      98 |       17800 |       03:14:40 |       80.94% |       0.5863 |          0.0010 |
+|      98 |       17850 |       03:15:57 |       80.54% |       0.6030 |          0.0010 |
+|      98 |       17900 |       03:17:13 |       79.64% |       0.6043 |          0.0010 |
+|      99 |       17950 |       03:18:30 |       79.26% |       0.6127 |          0.0010 |
+|      99 |       18000 |       03:19:47 |       79.07% |       0.6255 |          0.0010 |
+|      99 |       18050 |       03:21:04 |       81.41% |       0.5761 |          0.0010 |
+|      99 |       18100 |       03:22:21 |       78.58% |       0.6566 |          0.0010 |
+|     100 |       18150 |       03:23:38 |       80.16% |       0.5856 |          0.0010 |
+|     100 |       18200 |       03:24:56 |       80.05% |       0.6198 |          0.0010 |
+|     100 |       18250 |       03:26:14 |       79.84% |       0.6006 |          0.0010 |
+|     100 |       18300 |       03:27:31 |       81.00% |       0.5806 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |        9.48% |       7.5201 |          0.0010 |
+|       1 |          50 |       00:00:14 |       25.43% |       2.0299 |          0.0010 |
+|       2 |         100 |       00:00:29 |       35.54% |       1.7537 |          0.0010 |
+|       3 |         150 |       00:00:45 |       36.82% |       1.6166 |          0.0010 |
+|       3 |         200 |       00:01:01 |       46.42% |       1.4236 |          0.0010 |
+|       4 |         250 |       00:01:19 |       43.75% |       1.5049 |          0.0010 |
+|       5 |         300 |       00:01:40 |       46.75% |       1.4618 |          0.0010 |
+|       6 |         350 |       00:01:57 |       47.51% |       1.3894 |          0.0010 |
+|       6 |         400 |       00:02:12 |       46.83% |       1.4122 |          0.0010 |
+|       7 |         450 |       00:02:28 |       50.04% |       1.3422 |          0.0010 |
+|       8 |         500 |       00:02:44 |       50.16% |       1.3438 |          0.0010 |
+|       9 |         550 |       00:02:59 |       52.99% |       1.2907 |          0.0010 |
+|       9 |         600 |       00:03:15 |       55.84% |       1.2117 |          0.0010 |
+|      10 |         650 |       00:03:30 |       57.20% |       1.1723 |          0.0010 |
+|      11 |         700 |       00:03:46 |       59.86% |       1.1055 |          0.0010 |
+|      12 |         750 |       00:04:02 |       58.91% |       1.1253 |          0.0010 |
+|      12 |         800 |       00:04:17 |       60.52% |       1.1187 |          0.0010 |
+|      13 |         850 |       00:04:33 |       59.98% |       1.1037 |          0.0010 |
+|      14 |         900 |       00:04:49 |       63.22% |       1.0113 |          0.0010 |
+|      14 |         950 |       00:05:04 |       62.28% |       1.0457 |          0.0010 |
+|      15 |        1000 |       00:05:20 |       68.13% |       0.9201 |          0.0010 |
+|      16 |        1050 |       00:05:35 |       65.61% |       0.9463 |          0.0010 |
+|      17 |        1100 |       00:05:51 |       64.12% |       0.9980 |          0.0010 |
+|      17 |        1150 |       00:06:06 |       62.85% |       1.0323 |          0.0010 |
+|      18 |        1200 |       00:06:22 |       67.75% |       0.9094 |          0.0010 |
+|      19 |        1250 |       00:06:38 |       64.45% |       0.9710 |          0.0010 |
+|      20 |        1300 |       00:06:53 |       65.03% |       0.9512 |          0.0010 |
+|      20 |        1350 |       00:07:09 |       66.74% |       0.9236 |          0.0010 |
+|      21 |        1400 |       00:07:25 |       63.09% |       0.9877 |          0.0010 |
+|      22 |        1450 |       00:07:40 |       65.74% |       0.9536 |          0.0010 |
+|      23 |        1500 |       00:07:56 |       68.28% |       0.8659 |          0.0010 |
+|      23 |        1550 |       00:08:11 |       67.91% |       0.8897 |          0.0010 |
+|      24 |        1600 |       00:08:27 |       69.21% |       0.8598 |          0.0010 |
+|      25 |        1650 |       00:08:43 |       75.14% |       0.7042 |          0.0010 |
+|      25 |        1700 |       00:08:59 |       68.45% |       0.8919 |          0.0010 |
+|      26 |        1750 |       00:09:14 |       72.33% |       0.7668 |          0.0010 |
+|      27 |        1800 |       00:09:30 |       70.52% |       0.8247 |          0.0010 |
+|      28 |        1850 |       00:09:46 |       71.30% |       0.8103 |          0.0010 |
+|      28 |        1900 |       00:10:01 |       74.78% |       0.7234 |          0.0010 |
+|      29 |        1950 |       00:10:17 |       70.62% |       0.8095 |          0.0010 |
+|      30 |        2000 |       00:10:32 |       72.36% |       0.7740 |          0.0010 |
+|      31 |        2050 |       00:10:48 |       72.34% |       0.7716 |          0.0010 |
+|      31 |        2100 |       00:11:04 |       70.36% |       0.8103 |          0.0010 |
+|      32 |        2150 |       00:11:19 |       73.21% |       0.7441 |          0.0010 |
+|      33 |        2200 |       00:11:35 |       71.08% |       0.7909 |          0.0010 |
+|      34 |        2250 |       00:11:51 |       73.56% |       0.7519 |          0.0010 |
+|      34 |        2300 |       00:12:06 |       74.68% |       0.7164 |          0.0010 |
+|      35 |        2350 |       00:12:22 |       73.73% |       0.7424 |          0.0010 |
+|      36 |        2400 |       00:12:38 |       76.38% |       0.6579 |          0.0010 |
+|      37 |        2450 |       00:12:53 |       75.20% |       0.6934 |          0.0010 |
+|      37 |        2500 |       00:13:09 |       75.22% |       0.6956 |          0.0010 |
+|      38 |        2550 |       00:13:25 |       74.84% |       0.7093 |          0.0010 |
+|      39 |        2600 |       00:13:41 |       76.84% |       0.6392 |          0.0010 |
+|      39 |        2650 |       00:13:56 |       74.72% |       0.6988 |          0.0010 |
+|      40 |        2700 |       00:14:12 |       77.72% |       0.6263 |          0.0010 |
+|      41 |        2750 |       00:14:28 |       78.37% |       0.6178 |          0.0010 |
+|      42 |        2800 |       00:14:44 |       75.39% |       0.6779 |          0.0010 |
+|      42 |        2850 |       00:15:00 |       74.70% |       0.7010 |          0.0010 |
+|      43 |        2900 |       00:15:17 |       77.48% |       0.6287 |          0.0010 |
+|      44 |        2950 |       00:15:35 |       75.47% |       0.6823 |          0.0010 |
+|      45 |        3000 |       00:15:52 |       75.53% |       0.6667 |          0.0010 |
+|      45 |        3050 |       00:16:10 |       75.79% |       0.6734 |          0.0010 |
+|      46 |        3100 |       00:16:32 |       74.70% |       0.6935 |          0.0010 |
+|      47 |        3150 |       00:16:54 |       75.51% |       0.6827 |          0.0010 |
+|      48 |        3200 |       00:17:11 |       76.64% |       0.6460 |          0.0010 |
+|      48 |        3250 |       00:17:29 |       78.02% |       0.6274 |          0.0010 |
+|      49 |        3300 |       00:17:46 |       77.23% |       0.6466 |          0.0010 |
+|      50 |        3350 |       00:18:03 |       82.03% |       0.5212 |          0.0010 |
+|      50 |        3400 |       00:18:20 |       76.08% |       0.6833 |          0.0010 |
+|      51 |        3450 |       00:18:37 |       80.23% |       0.5555 |          0.0010 |
+|      52 |        3500 |       00:18:54 |       79.23% |       0.5994 |          0.0010 |
+|      53 |        3550 |       00:19:11 |       78.08% |       0.6158 |          0.0010 |
+|      53 |        3600 |       00:19:28 |       80.20% |       0.5707 |          0.0010 |
+|      54 |        3650 |       00:19:45 |       77.78% |       0.6322 |          0.0010 |
+|      55 |        3700 |       00:20:01 |       79.46% |       0.5902 |          0.0010 |
+|      56 |        3750 |       00:20:17 |       77.95% |       0.6178 |          0.0010 |
+|      56 |        3800 |       00:20:34 |       78.02% |       0.6244 |          0.0010 |
+|      57 |        3850 |       00:20:53 |       79.49% |       0.5799 |          0.0010 |
+|      58 |        3900 |       00:21:11 |       78.14% |       0.6153 |          0.0010 |
+|      59 |        3950 |       00:21:28 |       80.22% |       0.5869 |          0.0010 |
+|      59 |        4000 |       00:21:44 |       80.12% |       0.5704 |          0.0010 |
+|      60 |        4050 |       00:22:00 |       80.67% |       0.5669 |          0.0010 |
+|      61 |        4100 |       00:22:16 |       81.70% |       0.5273 |          0.0010 |
+|      62 |        4150 |       00:22:32 |       81.30% |       0.5336 |          0.0010 |
+|      62 |        4200 |       00:22:49 |       81.24% |       0.5463 |          0.0010 |
+|      63 |        4250 |       00:23:04 |       81.01% |       0.5486 |          0.0010 |
+|      64 |        4300 |       00:23:20 |       82.11% |       0.5098 |          0.0010 |
+|      64 |        4350 |       00:23:36 |       80.69% |       0.5507 |          0.0010 |
+|      65 |        4400 |       00:23:52 |       83.33% |       0.4865 |          0.0010 |
+|      66 |        4450 |       00:24:08 |       83.26% |       0.4899 |          0.0010 |
+|      67 |        4500 |       00:24:24 |       80.54% |       0.5548 |          0.0010 |
+|      67 |        4550 |       00:24:43 |       80.86% |       0.5540 |          0.0010 |
+|      68 |        4600 |       00:24:59 |       83.16% |       0.4828 |          0.0010 |
+|      69 |        4650 |       00:25:15 |       80.57% |       0.5558 |          0.0010 |
+|      70 |        4700 |       00:25:31 |       80.94% |       0.5320 |          0.0010 |
+|      70 |        4750 |       00:25:48 |       81.82% |       0.5327 |          0.0010 |
+|      71 |        4800 |       00:26:04 |       80.35% |       0.5640 |          0.0010 |
+|      72 |        4850 |       00:26:20 |       81.62% |       0.5305 |          0.0010 |
+|      73 |        4900 |       00:26:36 |       82.13% |       0.5142 |          0.0010 |
+|      73 |        4950 |       00:26:52 |       82.68% |       0.5020 |          0.0010 |
+|      74 |        5000 |       00:27:08 |       81.78% |       0.5223 |          0.0010 |
+|      75 |        5050 |       00:27:24 |       85.81% |       0.4272 |          0.0010 |
+|      75 |        5100 |       00:27:40 |       82.24% |       0.5238 |          0.0010 |
+|      76 |        5150 |       00:27:56 |       84.84% |       0.4413 |          0.0010 |
+|      77 |        5200 |       00:28:12 |       83.56% |       0.4856 |          0.0010 |
+|      78 |        5250 |       00:28:28 |       83.02% |       0.4949 |          0.0010 |
+|      78 |        5300 |       00:28:44 |       85.05% |       0.4505 |          0.0010 |
+|      79 |        5350 |       00:29:00 |       82.86% |       0.4999 |          0.0010 |
+|      80 |        5400 |       00:29:16 |       83.37% |       0.4897 |          0.0010 |
+|      81 |        5450 |       00:29:33 |       83.13% |       0.4935 |          0.0010 |
+|      81 |        5500 |       00:29:49 |       82.84% |       0.4990 |          0.0010 |
+|      82 |        5550 |       00:30:05 |       83.65% |       0.4779 |          0.0010 |
+|      83 |        5600 |       00:30:21 |       82.62% |       0.5002 |          0.0010 |
+|      84 |        5650 |       00:30:37 |       84.57% |       0.4700 |          0.0010 |
+|      84 |        5700 |       00:30:54 |       84.74% |       0.4575 |          0.0010 |
+|      85 |        5750 |       00:31:11 |       84.07% |       0.4757 |          0.0010 |
+|      86 |        5800 |       00:31:32 |       85.82% |       0.4142 |          0.0010 |
+|      87 |        5850 |       00:31:52 |       84.98% |       0.4389 |          0.0010 |
+|      87 |        5900 |       00:32:08 |       85.21% |       0.4420 |          0.0010 |
+|      88 |        5950 |       00:32:24 |       84.63% |       0.4580 |          0.0010 |
+|      89 |        6000 |       00:32:40 |       85.07% |       0.4320 |          0.0010 |
+|      89 |        6050 |       00:32:57 |       84.10% |       0.4635 |          0.0010 |
+|      90 |        6100 |       00:33:13 |       86.28% |       0.4132 |          0.0010 |
+|      91 |        6150 |       00:33:29 |       86.45% |       0.4149 |          0.0010 |
+|      92 |        6200 |       00:33:46 |       84.97% |       0.4450 |          0.0010 |
+|      92 |        6250 |       00:34:02 |       84.29% |       0.4687 |          0.0010 |
+|      93 |        6300 |       00:34:18 |       86.77% |       0.3934 |          0.0010 |
+|      94 |        6350 |       00:34:35 |       83.28% |       0.4858 |          0.0010 |
+|      95 |        6400 |       00:34:51 |       84.88% |       0.4339 |          0.0010 |
+|      95 |        6450 |       00:35:07 |       85.51% |       0.4358 |          0.0010 |
+|      96 |        6500 |       00:35:24 |       83.22% |       0.4981 |          0.0010 |
+|      97 |        6550 |       00:35:40 |       84.97% |       0.4480 |          0.0010 |
+|      98 |        6600 |       00:35:57 |       85.70% |       0.4294 |          0.0010 |
+|      98 |        6650 |       00:36:13 |       85.62% |       0.4335 |          0.0010 |
+|      99 |        6700 |       00:36:30 |       85.24% |       0.4383 |          0.0010 |
+|     100 |        6750 |       00:36:46 |       88.13% |       0.3707 |          0.0010 |
+|     100 |        6800 |       00:37:03 |       85.04% |       0.4571 |          0.0010 |
+|========================================================================================|
+Training on single CPU.
+Initializing input data normalization.
+|========================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Mini-batch  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |     Loss     |      Rate       |
+|========================================================================================|
+|       1 |           1 |       00:00:00 |        9.29% |       7.8823 |          0.0010 |
+|       1 |          50 |       00:00:14 |        7.37% |       2.2740 |          0.0010 |
+|       2 |         100 |       00:00:29 |       20.19% |       2.1020 |          0.0010 |
+|       3 |         150 |       00:00:45 |       25.90% |       1.8242 |          0.0010 |
+|       3 |         200 |       00:01:00 |       25.09% |       1.7680 |          0.0010 |
+|       4 |         250 |       00:01:16 |       30.43% |       1.7125 |          0.0010 |
+|       5 |         300 |       00:01:31 |       32.11% |       1.6775 |          0.0010 |
+|       6 |         350 |       00:01:47 |       34.82% |       1.5920 |          0.0010 |
+|       6 |         400 |       00:02:02 |       34.31% |       1.6398 |          0.0010 |
+|       7 |         450 |       00:02:18 |       40.65% |       1.5337 |          0.0010 |
+|       8 |         500 |       00:02:33 |       36.33% |       1.6004 |          0.0010 |
+|       9 |         550 |       00:02:48 |       39.13% |       1.5707 |          0.0010 |
+|       9 |         600 |       00:03:04 |       40.23% |       1.5067 |          0.0010 |
+|      10 |         650 |       00:03:19 |       41.98% |       1.5022 |          0.0010 |
+|      11 |         700 |       00:03:35 |       41.24% |       1.5063 |          0.0010 |
+|      12 |         750 |       00:03:50 |       45.25% |       1.4231 |          0.0010 |
+|      12 |         800 |       00:04:06 |       46.09% |       1.3661 |          0.0010 |
+|      13 |         850 |       00:04:21 |       50.44% |       1.4034 |          0.0010 |
+|      14 |         900 |       00:04:37 |       50.55% |       1.2724 |          0.0010 |
+|      14 |         950 |       00:04:52 |       50.98% |       1.3230 |          0.0010 |
+|      15 |        1000 |       00:05:07 |       50.58% |       1.2585 |          0.0010 |
+|      16 |        1050 |       00:05:23 |       49.85% |       1.3153 |          0.0010 |
+|      17 |        1100 |       00:05:38 |       51.65% |       1.2528 |          0.0010 |
+|      17 |        1150 |       00:05:54 |       54.43% |       1.2095 |          0.0010 |
+|      18 |        1200 |       00:06:09 |       56.28% |       1.1544 |          0.0010 |
+|      19 |        1250 |       00:06:25 |       55.80% |       1.1911 |          0.0010 |
+|      20 |        1300 |       00:06:40 |       56.85% |       1.1670 |          0.0010 |
+|      20 |        1350 |       00:06:56 |       56.29% |       1.1628 |          0.0010 |
+|      21 |        1400 |       00:07:11 |       57.39% |       1.1369 |          0.0010 |
+|      22 |        1450 |       00:07:27 |       55.31% |       1.1955 |          0.0010 |
+|      23 |        1500 |       00:07:42 |       55.87% |       1.1258 |          0.0010 |
+|      23 |        1550 |       00:07:58 |       55.80% |       1.1512 |          0.0010 |
+|      24 |        1600 |       00:08:13 |       56.39% |       1.1159 |          0.0010 |
+|      25 |        1650 |       00:08:29 |       55.79% |       1.1403 |          0.0010 |
+|      25 |        1700 |       00:08:45 |       61.76% |       1.0101 |          0.0010 |
+|      26 |        1750 |       00:09:05 |       61.79% |       1.0221 |          0.0010 |
+|      27 |        1800 |       00:09:27 |       59.61% |       1.0559 |          0.0010 |
+|      28 |        1850 |       00:09:44 |       60.40% |       1.0209 |          0.0010 |
+|      28 |        1900 |       00:09:59 |       58.18% |       1.0905 |          0.0010 |
+|      29 |        1950 |       00:10:15 |       60.30% |       1.0598 |          0.0010 |
+|      30 |        2000 |       00:10:31 |       59.69% |       1.0827 |          0.0010 |
+|      31 |        2050 |       00:10:47 |       62.14% |       0.9931 |          0.0010 |
+|      31 |        2100 |       00:11:03 |       61.79% |       1.0126 |          0.0010 |
+|      32 |        2150 |       00:11:20 |       65.24% |       0.9430 |          0.0010 |
+|      33 |        2200 |       00:11:42 |       64.80% |       0.9701 |          0.0010 |
+|      34 |        2250 |       00:12:02 |       64.42% |       0.9526 |          0.0010 |
+|      34 |        2300 |       00:12:20 |       63.29% |       0.9677 |          0.0010 |
+|      35 |        2350 |       00:12:41 |       65.15% |       0.9247 |          0.0010 |
+|      36 |        2400 |       00:12:57 |       62.83% |       0.9833 |          0.0010 |
+|      37 |        2450 |       00:13:13 |       63.67% |       0.9572 |          0.0010 |
+|      37 |        2500 |       00:13:29 |       64.32% |       0.9242 |          0.0010 |
+|      38 |        2550 |       00:13:45 |       64.05% |       0.9569 |          0.0010 |
+|      39 |        2600 |       00:14:01 |       67.00% |       0.8496 |          0.0010 |
+|      39 |        2650 |       00:14:16 |       63.33% |       0.9717 |          0.0010 |
+|      40 |        2700 |       00:14:32 |       64.66% |       0.8969 |          0.0010 |
+|      41 |        2750 |       00:14:48 |       66.63% |       0.8812 |          0.0010 |
+|      42 |        2800 |       00:15:04 |       67.61% |       0.8731 |          0.0010 |
+|      42 |        2850 |       00:15:20 |       67.35% |       0.8821 |          0.0010 |
+|      43 |        2900 |       00:15:36 |       69.28% |       0.8302 |          0.0010 |
+|      44 |        2950 |       00:15:52 |       69.41% |       0.8342 |          0.0010 |
+|      45 |        3000 |       00:16:08 |       69.48% |       0.8086 |          0.0010 |
+|      45 |        3050 |       00:16:24 |       67.98% |       0.8553 |          0.0010 |
+|      46 |        3100 |       00:16:40 |       69.65% |       0.8308 |          0.0010 |
+|      47 |        3150 |       00:16:55 |       66.47% |       0.9205 |          0.0010 |
+|      48 |        3200 |       00:17:11 |       68.79% |       0.8325 |          0.0010 |
+|      48 |        3250 |       00:17:27 |       68.02% |       0.8572 |          0.0010 |
+|      49 |        3300 |       00:17:43 |       68.38% |       0.8102 |          0.0010 |
+|      50 |        3350 |       00:17:59 |       67.69% |       0.8759 |          0.0010 |
+|      50 |        3400 |       00:18:15 |       70.98% |       0.7818 |          0.0010 |
+|      51 |        3450 |       00:18:31 |       70.39% |       0.8017 |          0.0010 |
+|      52 |        3500 |       00:18:47 |       70.32% |       0.8069 |          0.0010 |
+|      53 |        3550 |       00:19:02 |       69.09% |       0.8078 |          0.0010 |
+|      53 |        3600 |       00:19:18 |       69.14% |       0.8257 |          0.0010 |
+|      54 |        3650 |       00:19:34 |       68.52% |       0.8477 |          0.0010 |
+|      55 |        3700 |       00:19:50 |       69.92% |       0.8298 |          0.0010 |
+|      56 |        3750 |       00:20:06 |       69.69% |       0.8168 |          0.0010 |
+|      56 |        3800 |       00:20:22 |       70.27% |       0.7965 |          0.0010 |
+|      57 |        3850 |       00:20:38 |       72.25% |       0.7502 |          0.0010 |
+|      58 |        3900 |       00:20:54 |       72.56% |       0.7702 |          0.0010 |
+|      59 |        3950 |       00:21:10 |       72.05% |       0.7738 |          0.0010 |
+|      59 |        4000 |       00:21:27 |       72.96% |       0.7394 |          0.0010 |
+|      60 |        4050 |       00:21:43 |       73.75% |       0.7260 |          0.0010 |
+|      61 |        4100 |       00:21:58 |       69.37% |       0.8327 |          0.0010 |
+|      62 |        4150 |       00:22:14 |       72.52% |       0.7426 |          0.0010 |
+|      62 |        4200 |       00:22:31 |       71.48% |       0.7768 |          0.0010 |
+|      63 |        4250 |       00:22:47 |       72.43% |       0.7622 |          0.0010 |
+|      64 |        4300 |       00:23:02 |       72.83% |       0.7229 |          0.0010 |
+|      64 |        4350 |       00:23:18 |       71.62% |       0.7708 |          0.0010 |
+|      65 |        4400 |       00:23:35 |       71.44% |       0.7505 |          0.0010 |
+|      66 |        4450 |       00:23:52 |       73.13% |       0.7405 |          0.0010 |
+|      67 |        4500 |       00:24:13 |       73.37% |       0.7369 |          0.0010 |
+|      67 |        4550 |       00:24:32 |       73.59% |       0.7283 |          0.0010 |
+|      68 |        4600 |       00:24:49 |       75.32% |       0.6855 |          0.0010 |
+|      69 |        4650 |       00:25:05 |       74.30% |       0.7044 |          0.0010 |
+|      70 |        4700 |       00:25:21 |       75.18% |       0.6743 |          0.0010 |
+|      70 |        4750 |       00:25:37 |       73.29% |       0.7258 |          0.0010 |
+|      71 |        4800 |       00:25:53 |       75.86% |       0.6746 |          0.0010 |
+|      72 |        4850 |       00:26:09 |       71.73% |       0.7937 |          0.0010 |
+|      73 |        4900 |       00:26:26 |       73.99% |       0.7112 |          0.0010 |
+|      73 |        4950 |       00:26:42 |       73.95% |       0.7184 |          0.0010 |
+|      74 |        5000 |       00:27:00 |       74.91% |       0.6782 |          0.0010 |
+|      75 |        5050 |       00:27:16 |       73.27% |       0.7356 |          0.0010 |
+|      75 |        5100 |       00:27:33 |       75.89% |       0.6667 |          0.0010 |
+|      76 |        5150 |       00:27:49 |       74.63% |       0.6865 |          0.0010 |
+|      77 |        5200 |       00:28:06 |       76.46% |       0.6593 |          0.0010 |
+|      78 |        5250 |       00:28:22 |       75.41% |       0.6670 |          0.0010 |
+|      78 |        5300 |       00:28:38 |       74.77% |       0.6966 |          0.0010 |
+|      79 |        5350 |       00:28:55 |       73.99% |       0.7059 |          0.0010 |
+|      80 |        5400 |       00:29:12 |       75.10% |       0.7071 |          0.0010 |
+|      81 |        5450 |       00:29:28 |       74.47% |       0.6919 |          0.0010 |
+|      81 |        5500 |       00:29:45 |       76.23% |       0.6671 |          0.0010 |
+|      82 |        5550 |       00:30:01 |       77.44% |       0.6265 |          0.0010 |
+|      83 |        5600 |       00:30:18 |       76.30% |       0.6746 |          0.0010 |
+|      84 |        5650 |       00:30:35 |       76.94% |       0.6555 |          0.0010 |
+|      84 |        5700 |       00:30:52 |       77.34% |       0.6274 |          0.0010 |
+|      85 |        5750 |       00:31:09 |       78.16% |       0.6118 |          0.0010 |
+|      86 |        5800 |       00:31:26 |       74.78% |       0.7004 |          0.0010 |
+|      87 |        5850 |       00:31:43 |       77.04% |       0.6387 |          0.0010 |
+|      87 |        5900 |       00:32:00 |       74.77% |       0.6943 |          0.0010 |
+|      88 |        5950 |       00:32:18 |       76.54% |       0.6545 |          0.0010 |
+|      89 |        6000 |       00:32:35 |       77.66% |       0.6089 |          0.0010 |
+|      89 |        6050 |       00:32:52 |       76.14% |       0.6518 |          0.0010 |
+|      90 |        6100 |       00:33:10 |       74.58% |       0.6770 |          0.0010 |
+|      91 |        6150 |       00:33:27 |       77.48% |       0.6373 |          0.0010 |
+|      92 |        6200 |       00:33:45 |       77.97% |       0.6269 |          0.0010 |
+|      92 |        6250 |       00:34:02 |       77.94% |       0.6205 |          0.0010 |
+|      93 |        6300 |       00:34:20 |       78.97% |       0.5963 |          0.0010 |
+|      94 |        6350 |       00:34:38 |       78.41% |       0.6052 |          0.0010 |
+|      95 |        6400 |       00:34:56 |       78.97% |       0.5855 |          0.0010 |
+|      95 |        6450 |       00:35:14 |       77.19% |       0.6404 |          0.0010 |
+|      96 |        6500 |       00:35:32 |       79.78% |       0.5721 |          0.0010 |
+|      97 |        6550 |       00:35:50 |       75.29% |       0.7029 |          0.0010 |
+|      98 |        6600 |       00:36:08 |       77.21% |       0.6285 |          0.0010 |
+|      98 |        6650 |       00:36:26 |       76.95% |       0.6470 |          0.0010 |
+|      99 |        6700 |       00:36:44 |       78.95% |       0.5820 |          0.0010 |
+|     100 |        6750 |       00:37:03 |       76.75% |       0.6527 |          0.0010 |
+|     100 |        6800 |       00:37:21 |       78.82% |       0.5903 |          0.0010 |
+|========================================================================================|
+
+
+
+
+exit
