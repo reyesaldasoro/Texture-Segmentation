@@ -59,7 +59,7 @@ layers = [
     pixelClassificationLayer()
     ];
 
-opts = trainingOptions('adam', ...
+opts = trainingOptions('rmsprop', ...
     'InitialLearnRate',1e-3, ...
     'MaxEpochs',100, ...
     'MiniBatchSize',64);
@@ -68,7 +68,7 @@ trainingData = pixelLabelImageDatastore(imds,pxds);
 
 net = trainNetwork(trainingData,layers,opts);
 
-nameNet = strcat('Network_Case_',num2str(currentCase),'B');
+nameNet = strcat('Network_Case_',num2str(currentCase),'C');
 save(nameNet,'net')
 
 %
