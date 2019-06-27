@@ -30,7 +30,7 @@ labelDir = fullfile(dataSetDir,'trainingLabels2');
 imageSize = [256 256];
 numClasses = 5;
 encoderDepth = 4;
-lgraph = unetLayers(imageSize,numClasses,'EncoderDepth',encoderDepth);
+%lgraph = unetLayers(imageSize,numClasses,'EncoderDepth',encoderDepth);
 
 %%
 imds = imageDatastore(imageDir);
