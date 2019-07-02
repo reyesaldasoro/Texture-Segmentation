@@ -6,8 +6,10 @@ clc
 %% Read the files that have been stored in the current folder
 if strcmp(filesep,'/')
     % Running in Mac
-    cd ('/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE')
-    dataSetDir='/Users/ccr22/Acad/GitHub/Texture-Segmentation/CODE';
+    cd ('/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE')
+    %dataSetDir='/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE';
+    dataSetDir='/Users/ccr22/OneDrive - City, University of London/Acad/Research/texture/Horiz_Vert_Diag/';
+
 else
     % running in windows
     %    dataSetDir ='D:\Acad\GitHub\Texture-Segmentation\CODE';
