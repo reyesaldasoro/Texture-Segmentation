@@ -24,21 +24,26 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 %dir_nets = dir ('Network_Case*');
 
 %% Evaluate Networks
-for counterOptions =1:3
-    switch counterOptions
-        case 1
-            dir_nets = dir ('Network_Case_?.mat');
-        case 2
-            dir_nets = dir ('Network_Case_?B.mat');
-        case 3
-            dir_nets = dir ('Network_Case_?C.mat');
-    end
+
+for counterOptions =1:6
+            dir_nets = dir ('Network_Case_?_?.mat');
+%     switch counterOptions
+%         case 1
+%             dir_nets = dir ('Network_Case_?.mat');
+%         case 2
+%             dir_nets = dir ('Network_Case_?B.mat');
+%         case 3
+%             dir_nets = dir ('Network_Case_?C.mat');
+%     end
     for currentCase                 = 1:9
+        disp([counterOptions currentCase])
         % select one of the composite images
         [rows2,cols2,numClasses]      = size(trainRanden{currentCase});
-        [rows,cols,numClasses2]      = size(dataRanden{currentCase});
+        [rows,cols,numClasses2]       = size(dataRanden{currentCase});
         %
-        load (dir_nets(currentCase).name);
+        currentNetwork               = strcat('Network_Case_',num2str(currentCase),'_',num2str(counterOptions),'.mat');
+        load (currentNetwork)
+        %load (dir_nets(currentCase).name);
         C = semanticseg(uint8(dataRanden{currentCase}),net);
         B = labeloverlay(uint8(dataRanden{currentCase}), C);
         %figure(currentCase)
