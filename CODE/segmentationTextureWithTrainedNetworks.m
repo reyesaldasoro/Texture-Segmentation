@@ -24,6 +24,7 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 %dir_nets = dir ('Network_Case*');
 
 %% Evaluate Networks
+<<<<<<< HEAD
 
 for counterOptions =1:6
             dir_nets = dir ('Network_Case_?_?.mat');
@@ -35,6 +36,17 @@ for counterOptions =1:6
 %         case 3
 %             dir_nets = dir ('Network_Case_?C.mat');
 %     end
+=======
+for counterOptions =1:3
+    switch counterOptions
+        case 1
+            dir_nets = dir ('Network_Case_?_1.mat');
+        case 2
+            dir_nets = dir ('Network_Case_?_2.mat');
+        case 3
+            dir_nets = dir ('Network_Case_?_3.mat');
+    end
+>>>>>>> facdc81c5c7474fc53fe047c084e0d977b258878
     for currentCase                 = 1:9
         disp([counterOptions currentCase])
         % select one of the composite images
