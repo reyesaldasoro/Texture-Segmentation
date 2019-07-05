@@ -68,7 +68,7 @@ for caseEncoder =1%:3
         
         
         % Definition of the network to be trained.
-        numFilters                  = 128;
+        numFilters                  = 64;
         filterSize                  = 3;
         %numClasses = 5;
         layers = [
@@ -86,9 +86,8 @@ for caseEncoder =1%:3
         
         opts = trainingOptions(typeEncoder, ...
             'InitialLearnRate',1e-3, ...
-            'MaxEpochs',5, ...
-            'MiniBatchSize',64,'Plots','training-progress',...
-             'ValidationData',uint8(dataRanden{currentCase}));
+            'MaxEpochs',100, ...
+            'MiniBatchSize',64);
 
         trainingData        = pixelLabelImageDatastore(imds,pxds);
         nameNet             = strcat(dataSetDir,'Network_Case_',num2str(currentCase),nameEncoder);
