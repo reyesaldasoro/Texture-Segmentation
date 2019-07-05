@@ -9,12 +9,10 @@ if strcmp(filesep,'/')
     cd ('/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE')
     %dataSetDir='/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE';
     dataSetDir='/Users/ccr22/OneDrive - City, University of London/Acad/Research/texture/Horiz_Vert_Diag/';
-
 else
     % running in windows
     %    dataSetDir ='D:\Acad\GitHub\Texture-Segmentation\CODE';
-    dataSetDir =  'D:\OneDrive - City, University of London\Acad\Research\texture\Horiz_Vert_Diag\';
-    
+    dataSetDir =  'D:\OneDrive - City, University of London\Acad\Research\texture\Horiz_Vert_Diag\';    
     cd ('D:\Acad\GitHub\Texture-Segmentation\CODE')
 end
 %%
