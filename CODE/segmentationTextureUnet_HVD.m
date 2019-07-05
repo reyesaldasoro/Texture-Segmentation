@@ -46,21 +46,28 @@ for caseEncoder =1:3
         imageDir = fullfile(dataSetDir,strcat('trainingImages',filesep,'Case_',num2str(currentCase)));
         labelDir = fullfile(dataSetDir,strcat('trainingLabels',filesep,'Case_',num2str(currentCase)));
         
-        
         imageSize = [rows cols];
         %numClasses = 5;
         encoderDepth = 4;
-        imds = imageDatastore(imageDir);
+        % These are the data stores with the training pairs and training labels
+        % They can be later used to create montages of the pairs.
+        imds  = imageDatastore(imageDir); 
+        imds2 = imageDatastore(labelDir);
+
+        % The class names are a sequence of options for the textures, e.g.
+        % classNames = ["T1","T2","T3","T4","T5"];
         clear classNames
         for counterClass=1:numClasses
             classNames(counterClass) = strcat("T",num2str(counterClass));
         end
-        %classNames = ["T1","T2","T3","T4","T5"];
+        % The labels are simply the numbers of the textures, same numbers 
+        % as with the classNames. For randen examples, these vary 1-5, 1-16, 1-10
         labelIDs   = (1:numClasses);
+        
         pxds = pixelLabelDatastore(labelDir,classNames,labelIDs);
         
         
-        %
+        % Definition of the network to be trained.
         numFilters                  = 64;
         filterSize                  = 3;
         %numClasses = 5;
