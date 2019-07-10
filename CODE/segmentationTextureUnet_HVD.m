@@ -86,7 +86,7 @@ for caseEncoder =1%:3
         
         opts = trainingOptions(typeEncoder, ...
             'InitialLearnRate',1e-3, ...
-            'MaxEpochs',100, ...
+            'MaxEpochs',5, ...
             'MiniBatchSize',64);
 
         trainingData        = pixelLabelImageDatastore(imds,pxds);
@@ -94,7 +94,7 @@ for caseEncoder =1%:3
         disp(nameNet)
         net                 = trainNetwork(trainingData,layers,opts);
 
-        save(nameNet,'net')
+        %save(nameNet,'net')
         
         %
         C = semanticseg(uint8(dataRanden{currentCase}),net);
