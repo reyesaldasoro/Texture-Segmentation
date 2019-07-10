@@ -33,16 +33,8 @@ end
 %%
 imagesc(actvn18(:,:,7))
 
-%%
-load randenData
-currentCase =1;
-imageSize = size(dataRanden{currentCase});
-% Load alexnet
-net2 = alexnet;
-layers = net2.Layers;
-%Change the 
-layers(1) = imageInputLayer(imageSize,'Name','imageinput' );
-dataAlexNet = repmat(uint8(dataRanden{currentCase}(1:227,1:227)),[1 1 3]);
+
+%% Calculate activations
 numLayers = size(net2.Layers,1);
 for k = 1:numLayers
     disp(k)
@@ -116,6 +108,6 @@ end
 imagesc(actvn{20}(:,:,22))
 
 %%
-k=10;
+k=19;
 montage(actvn{k}(:,:,:)/max(max(max(actvn{k}))))
 colormap(jet)
