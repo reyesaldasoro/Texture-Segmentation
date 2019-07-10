@@ -83,7 +83,7 @@ for caseEncoder =1%:3
             reluLayer()
             transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
             convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
             convolution2dLayer(1,numClasses);
             softmaxLayer()
             pixelClassificationLayer()
