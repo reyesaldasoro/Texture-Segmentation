@@ -78,7 +78,12 @@ for caseEncoder =1%:3
             maxPooling2dLayer(2,'Stride',2)
             convolution2dLayer(filterSize,numFilters,'Padding',1)
             reluLayer()
+            maxPooling2dLayer(2,'Stride',2)
+            convolution2dLayer(filterSize,numFilters,'Padding',1)
+            reluLayer()
             transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+            convolution2dLayer(1,numClasses);
+                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
             convolution2dLayer(1,numClasses);
             softmaxLayer()
             pixelClassificationLayer()
