@@ -25,7 +25,7 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 accuracy(3,9,3) = 0;
 %% Loop for training and segmentation
 % select one of the composite images of the randen cases, there are 9 images
-for currentCase                 = 1%:9
+for currentCase                 = 2%:9
     % dimensions of the data
     [rows,cols,numClasses]      = size(trainRanden{currentCase});
     % location of the training data data and labels are stored as pairs of textures arranged in Horizontal,
@@ -48,131 +48,143 @@ for currentCase                 = 1%:9
     % as with the classNames. For randen examples, these vary 1-5, 1-16, 1-10
     labelIDs                    = (1:numClasses);
     pxds                        = pixelLabelDatastore(labelDir,classNames,labelIDs);
-    
-    % try with different encoders
-    for caseEncoder =1%:3
-        switch caseEncoder
+    for numEpochsName=1:4
+        switch numEpochsName
             case 1
-                dir_nets        = dir ('Network_Case_?A.mat');
-                typeEncoder     = 'sgdm';
-                nameEncoder     = '1';
+                numEpochs       = 10;
             case 2
-                dir_nets        = dir ('Network_Case_?B.mat');
-                typeEncoder     = 'adam';
-                nameEncoder     = '2';
+                numEpochs       = 20;
             case 3
-                dir_nets        = dir ('Network_Case_?C.mat');
-                typeEncoder     = 'rmsprop';
-                nameEncoder     = '3';
+                numEpochs       = 50;
+            case 4
+                numEpochs       = 100;
         end
         
-        % Definition of the network to be trained.
-        numFilters                  = 64;
-        filterSize                  = 3;
-        
-        for numLayersNetwork =1:3
-            switch numLayersNetwork
+        % try with different encoders
+        for caseEncoder =1:3
+            switch caseEncoder
                 case 1
-                    layers = [
-                        imageInputLayer([32 32 1])
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        softmaxLayer()
-                        pixelClassificationLayer()
-                        ];
-                    nameLayers     = '10';
+                    dir_nets        = dir ('Network_Case_?A.mat');
+                    typeEncoder     = 'sgdm';
+                    nameEncoder     = '1';
                 case 2
-                    layers = [
-                        imageInputLayer([32 32 1])
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        softmaxLayer()
-                        pixelClassificationLayer()
-                        ];
-                    
-                    nameLayers     = '15';
+                    dir_nets        = dir ('Network_Case_?B.mat');
+                    typeEncoder     = 'adam';
+                    nameEncoder     = '2';
                 case 3
-                    layers = [
-                        imageInputLayer([32 32 1])
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        maxPooling2dLayer(2,'Stride',2)
-                        convolution2dLayer(filterSize,numFilters,'Padding',1)
-                        reluLayer()
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
-                        convolution2dLayer(1,numClasses);
-                        softmaxLayer()
-                        pixelClassificationLayer()
-                        ];
-                    
-                    nameLayers     = '20';
+                    dir_nets        = dir ('Network_Case_?C.mat');
+                    typeEncoder     = 'rmsprop';
+                    nameEncoder     = '3';
             end
             
+            % Definition of the network to be trained.
+            numFilters                  = 64;
+            filterSize                  = 3;
             
-            opts = trainingOptions(typeEncoder, ...
-                'InitialLearnRate',1e-3, ...
-                'MaxEpochs',100, ...
-                'MiniBatchSize',64);
-            
-            trainingData        = pixelLabelImageDatastore(imds,pxds);
-            nameNet             = strcat(dataSetDir,'Network_Case_',num2str(currentCase),'_Enc_',nameEncoder,'_numL_',nameLayers);
-            disp(nameNet)
-            net                 = trainNetwork(trainingData,layers,opts);
-            
-            save(nameNet,'net')
-            
-            %
-            C = semanticseg(uint8(dataRanden{currentCase}),net);
-            B = labeloverlay(uint8(dataRanden{currentCase}), C);
-            figure
-            imagesc(B)
-            
-            % Convert from semantic to numeric
-            result = zeros(rows,cols);
-            for counterClass=1:numClasses
-                %strcat('T',num2str(counterClass))
-                %result = result + counterClass*((C==strcat('T',num2str(counterClass))));
-                result = result +(counterClass*(C==strcat('T',num2str(counterClass))));
+            for numLayersNetwork =1:3
+                switch numLayersNetwork
+                    case 1
+                        layers = [
+                            imageInputLayer([32 32 1])
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            softmaxLayer()
+                            pixelClassificationLayer()
+                            ];
+                        nameLayers     = '10';
+                    case 2
+                        layers = [
+                            imageInputLayer([32 32 1])
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            softmaxLayer()
+                            pixelClassificationLayer()
+                            ];
+                        
+                        nameLayers     = '15';
+                    case 3
+                        layers = [
+                            imageInputLayer([32 32 1])
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            maxPooling2dLayer(2,'Stride',2)
+                            convolution2dLayer(filterSize,numFilters,'Padding',1)
+                            reluLayer()
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            transposedConv2dLayer(4,numFilters,'Stride',2,'Cropping',1);
+                            convolution2dLayer(1,numClasses);
+                            softmaxLayer()
+                            pixelClassificationLayer()
+                            ];
+                        
+                        nameLayers     = '20';
+                end
+                
+                
+                opts = trainingOptions(typeEncoder, ...
+                    'InitialLearnRate',1e-3, ...
+                    'MaxEpochs',numEpochs, ...
+                    'MiniBatchSize',64);
+                
+                trainingData        = pixelLabelImageDatastore(imds,pxds);
+                nameNet             = strcat(dataSetDir,'Network_Case_',num2str(currentCase),'_Enc_',nameEncoder,'_numL_',nameLayers,'_NumEpochs_',num2str(numEpochs));
+                disp(nameNet)
+                net                 = trainNetwork(trainingData,layers,opts);
+                
+                save(nameNet,'net')
+                
+                %
+                C = semanticseg(uint8(dataRanden{currentCase}),net);
+                %B = labeloverlay(uint8(dataRanden{currentCase}), C);
+                %figure
+                %imagesc(B)
+                
+                % Convert from semantic to numeric
+                result = zeros(rows,cols);
+                for counterClass=1:numClasses
+                    %strcat('T',num2str(counterClass))
+                    %result = result + counterClass*((C==strcat('T',num2str(counterClass))));
+                    result = result +(counterClass*(C==strcat('T',num2str(counterClass))));
+                end
+                %figure(10*counterOptions+currentCase)
+                %imagesc(result==maskRanden{currentCase})
+                accuracy(numLayersNetwork,currentCase,caseEncoder,numEpochsName)=sum(sum(result==maskRanden{currentCase}))/rows/cols;
             end
-            %figure(10*counterOptions+currentCase)
-            %imagesc(result==maskRanden{currentCase})
-            accuracy(numLayersNetwork,currentCase,caseEncoder)=sum(sum(result==maskRanden{currentCase}))/rows/cols;
-         end
+        end
     end
 end
 
