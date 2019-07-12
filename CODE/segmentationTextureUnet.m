@@ -9,10 +9,14 @@ if strcmp(filesep,'/')
     cd ('/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE')
     %dataSetDir='/Users/ccr22/Academic/GitHub/Texture-Segmentation/CODE';
     dataSetDir='/Users/ccr22/OneDrive - City, University of London/Acad/Research/texture/Horiz_Vert_Diag/';
+    dataSaveDir = '/Users/ccr22/OneDrive - City, University of London/Acad/Research/texture/Results/';
+ 
 else
     % running in windows
     %    dataSetDir ='D:\Acad\GitHub\Texture-Segmentation\CODE';
     dataSetDir =  'D:\OneDrive - City, University of London\Acad\Research\texture\Horiz_Vert_Diag\';
+    dataSaveDir = 'D:\OneDrive - City, University of London\Acad\Research\texture\Results\';
+    
     cd ('D:\Acad\GitHub\Texture-Segmentation\CODE')
 end
 %%
@@ -25,7 +29,7 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 accuracy(3,9,3) = 0;
 %% Loop for training and segmentation
 % select one of the composite images of the randen cases, there are 9 images
-for currentCase                 = 2%:9
+for currentCase                 = 1:9
     % dimensions of the data
     [rows,cols,numClasses]      = size(trainRanden{currentCase});
     % location of the training data data and labels are stored as pairs of textures arranged in Horizontal,
@@ -161,7 +165,7 @@ for currentCase                 = 2%:9
                     'MiniBatchSize',64);
                 
                 trainingData        = pixelLabelImageDatastore(imds,pxds);
-                nameNet             = strcat(dataSetDir,'Network_Case_',num2str(currentCase),'_Enc_',nameEncoder,'_numL_',nameLayers,'_NumEpochs_',num2str(numEpochs));
+                nameNet             = strcat(dataSaveDir,'Network_Case_',num2str(currentCase),'_Enc_',nameEncoder,'_numL_',nameLayers,'_NumEpochs_',num2str(numEpochs));
                 disp(nameNet)
                 net                 = trainNetwork(trainingData,layers,opts);
                 
