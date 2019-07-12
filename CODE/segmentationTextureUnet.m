@@ -26,7 +26,7 @@ load randenData
 % maskRanden    -  cell with the masks for each of the composite images
 clear resRanden stdsRanden meansRanden fname ind edge error*
 
-accuracy(3,9,3) = 0;
+accuracy(3,9,3,4) = 0;
 %% Loop for training and segmentation
 % select one of the composite images of the randen cases, there are 9 images
 for currentCase                 = 1:9
@@ -187,6 +187,7 @@ for currentCase                 = 1:9
                 %figure(10*counterOptions+currentCase)
                 %imagesc(result==maskRanden{currentCase})
                 accuracy(numLayersNetwork,currentCase,caseEncoder,numEpochsName)=sum(sum(result==maskRanden{currentCase}))/rows/cols;
+                save(strcat(dataSaveDir,'accuracy'),'accuracy')
             end
         end
     end
