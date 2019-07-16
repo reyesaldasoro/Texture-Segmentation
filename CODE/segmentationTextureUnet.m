@@ -29,14 +29,15 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 accuracy(3,9,3,4) = 0;
 %% Loop for training and segmentation
 % select one of the composite images of the randen cases, there are 9 images
-for currentCase                 = 1:9
+for currentCase                 = 6:9
     % dimensions of the data
-    [rows,cols,numClasses]      = size(trainRanden{currentCase});
+    [rows,cols]                 = size(dataRanden{currentCase});
+    numClasses                  = size(trainRanden{currentCase},3);
     % location of the training data data and labels are stored as pairs of textures arranged in Horizontal,
     % Vertical and Diagonal pairs of class 1-2, 1-3, 1-4 ... 2-1, 2-3,...
     imageDir                    = fullfile(dataSetDir,strcat('trainingImages',filesep,'Case_',num2str(currentCase)));
     labelDir                    = fullfile(dataSetDir,strcat('trainingLabels',filesep,'Case_',num2str(currentCase)));
-    imageSize                   = [rows cols];
+    %imageSize                   = [rows cols];
     encoderDepth                = 4;
     % These are the data stores with the training pairs and training labels
     % They can be later used to create montages of the pairs.
