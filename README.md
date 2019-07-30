@@ -68,7 +68,7 @@ colormap <span class="string">jet</span>
 </pre>
 
 <img vspace="5" hspace="5" src="Figures\readme_03.png" alt="">
-
+![Screenshot](Figures/readme_03.png)
 ``` {.codeinput}
 
 ```
