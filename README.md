@@ -68,10 +68,21 @@ colormap <span class="string">jet</span>
 </pre>
 
 <img vspace="5" hspace="5" src="Figures\readme_03.png" alt="">
-![Screenshot](Figures/readme_03.png)
-``` {.codeinput}
 
+<br>
+
+<p> To generate training data that will be used to train U-Nets in 32x32 patches you can use either of the following files:
+
+``` {.codeinput}
+prepareTrainingLabelsRanden.m
 ```
+
+``` {.codeinput}
+prepareTrainingLabelsRanden_HorVerDiag.m
+```
+The first one will only prepare patches with two vertical textures, whilst the second will arrange in diagonal, vertical and horizontal arrangements. Obviously, you will need to change the lines where folders are defined so that you save these training pairs of textures and labels correctly in your computer. The patches look like this:
+
+<img vspace="5" hspace="5" src="Figures\Fig5.png" alt="">
 
 ``` {.codeinput}
 
