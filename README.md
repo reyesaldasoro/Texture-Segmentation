@@ -1,13 +1,10 @@
 # Texture-Segmentation
-Volumetric Texture Segmentation by Discriminant Feature Selection and Multiresolution Classification
-
 
 <h1>
-Volumetric Texture Segmentation by Discriminant Feature Selection and Multiresolution Classification. <br>
+Texture segmentation: an objective comparison between traditional and deep-learning methodologies <br>
 </h1><br>
 
-<h2>Constantino Carlos Reyes-Aldasoro<br>
-Abhir Bhalerao</h2>
+
 
 <p>
     Test data, Matlab code and data sets and user manuals
@@ -16,57 +13,15 @@ Abhir Bhalerao</h2>
 
 <br />
 <h3>
-
-<b>Reyes-Aldasoro,
-C.C.</b>, and A. Bhalerao, <span style="font-style: italic;">Volumetric
-Texture Segmentation by
-Discriminant Feature Selection and Multiresolution Classification,</span>
-<a
-href="http://ieeexplore.ieee.org/document/4039538/">
-IEEE Trans. on Medical Imaging</a> (2007) Vol. 25, No. 1, pp.
-1-14.<br />
-<b>Reyes-Aldasoro, C.C.</b>, and A.
-Bhalerao, <span style="font-style: italic;">The Bhattacharyya space for
-feature selection and its
-application to texture segmentation</span>, <a
-href="http://dx.doi.org/10.1016/j.patcog.2005.12.003">Pattern
-Recognition</a>, (2006) Vol. 39, Issue 5, May 2006, pp. 812-826.    
+    Paper submitted to Applied Sciences
 </h3>
 
 <h2>Abstract</h2>
-Texture analysis in 2D has been well studied, but many 3D applications
-in
-Medical Imaging, Stratigraphy or Crystallography, would beneit from 3D
-analysis instead of the traditional, slice-by-slice approach. In this
-paper a Multiresolution Volumetric Texture Segmentation (M-VTS)
-algorithm is presented. The method extracts textural measurements from
-the Fourier domain of the data via subband filtering using an
-Orientation Pyramid [1]. A novel Bhattacharyya space, based on the
-Bhattacharyya distance is proposed for selecting the most discriminant
-measurements and producing a compact feature space. Each dimension of
-the feature space is used to form the lowest level of a Quad Tree. At
-the highest level of the tree, new positional features are added to
-improve the contiguity of the classification. The classified space is
-then projected to lower levels of the tree where a boundary refinement
-procedure is performed with a 3D equivalent of butterfly filters. The
-performance of M-VTS is tested in 2D by classifying a set of standard
-texture images. M-VTS yields lower misclassification rates than reported
-elsewhere [2], [3], [4]. The algorithm was tested in 3D with artificial
-isotropic data and three Magnetic Resonance Imaging sets of human knees
-with encouraging results. The regions segmented from the knees
-correspond to anatomical structures that could be used as a starting
-point for other measurements. By way of example, we demonstrate
-successful cartilage extraction. <br>
-<p> <span
- style="font-size: 9.9pt; font-weight: bold; color: rgb(0, 0, 0);">Keywords</span><span
- style="font-size: 9.9pt; color: rgb(0, 0, 0);">: Volumetric texture,
-Filtering, Multiresolution, Texture Segmentation, Feature Selection</span>
+This paper compares a series of traditional and deep learning methodologies for the segmentation of textures. Six well-known texture composites first published by Randen and Husoy were used to compare traditional segmentation techniques (co-occurrence, filtering, local binary patterns, watershed, multiresolution sub-band filtering) against a deep-learning approach based on the U-Net architecture. For the latter, the effects of depth of the network, number of epochs and different optimisation algorithms were investigated. Overall, the best results were provided by the deep-learning approach. However, the best results were distributed within the parameters, and many configurations provided results well below the traditional techniques.
 </p>
 
 <p> IMPORTANT </p>
-<p> Many of these routines were developed some time ago, that is many versions of Matlab have gone through. Some m-files were not
-    available from Matlab at that time (like mode) and thus I created my own. Be careful as some routines may not be compatible with
-    the most recent versions of Matlab.
+<p>
 </p>
 
 <hr width="100%"> <br>
@@ -105,7 +60,7 @@ Display 2 levels of the pyramid (2:14) in figure 1
         surfSOP (figure11SOP (:,:,2:14), 1 );
 ```
 
-        
+
 ![Screenshot](Figures/rand_f2_14.gif)
 
 
