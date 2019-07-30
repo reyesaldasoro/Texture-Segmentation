@@ -57,15 +57,17 @@ Load the matrix with the data from Randen's paper
 <pre class="codeinput">imagesc(dataRanden{1})
 colormap <span class="string">gray</span>
 </pre>
-<img vspace="5" hspace="5" src="readme_01.png" alt="">
- <h2 id="4">display the corresponding mask</h2><pre class="codeinput">imagesc(maskRanden{1})
+<img vspace="5" hspace="5" src="Figures\readme_01.png" alt="">
+ <h2 id="4">display the corresponding mask</h2>
+ <pre class="codeinput">imagesc(maskRanden{1})
 colormap <span class="string">jet</span>
 </pre>
-<img vspace="5" hspace="5" src="readme_02.png" alt="">
+<img vspace="5" hspace="5" src="Figures\readme_02.png" alt="">
  <h2 id="5">display a montage with the training data</h2>
  <pre class="codeinput">montage(mat2gray( trainRanden{1}))
 </pre>
-<img vspace="5" hspace="5" src="readme_03.png" alt="">
+
+<img vspace="5" hspace="5" src="Figures\readme_03.png" alt="">
 
 ``` {.codeinput}
 
