@@ -84,9 +84,19 @@ The first one will only prepare patches with two vertical textures, whilst the s
 
 <img vspace="5" hspace="5" src="Figures\Fig5.png" alt="">
 
-``` {.codeinput}
+Finally, to train and compare results you need to run the file:
 
+``` {.codeinput}
+segmentationTextureUnet.m
 ```
+
+This file will loop over different training options and network configurations, so it takes long, very long especially if you do not have GPUs enabled.
+
+
+<img vspace="5" hspace="5" src="Figures\Fig6D.png" alt="">
+
+
+More details will be added once the paper is published.
 
 ``` {.codeinput}
 
