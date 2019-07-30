@@ -36,8 +36,9 @@ This paper compares a series of traditional and deep learning methodologies for 
 Filter the image figure11 with the SOP filtering up to the third level of the pyramid (21 features)
 
 ``` {.codeinput}
-        figure11SOP     = sopy     (figure11, 3);
-        [512x512x21]                    [512x512]
+%% Clear all the data and close all windows
+clear all
+close all
 ```
 
 Quad Tree: reduce and expand through the Quad Tree
