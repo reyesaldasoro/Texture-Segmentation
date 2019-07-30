@@ -33,13 +33,47 @@ This paper compares a series of traditional and deep learning methodologies for 
 
 
 
-Filter the image figure11 with the SOP filtering up to the third level of the pyramid (21 features)
+Clear all the data and close all windows
 
 ``` {.codeinput}
-%% Clear all the data and close all windows
-clear all
-close all
+  clear all
+  close all
 ```
+Load the matrix with the data from Randen's paper
+``` {.codeinput}
+  load randenData
+  whos
+```
+
+<pre class="codeoutput">  Name             Size               Bytes  Class    Attributes
+
+  dataRanden       1x9              9438192  cell               
+  maskRanden       1x9              9438192  cell               
+  trainRanden      1x9             40371184  cell               
+
+</pre>
+
+``` {.codeinput}
+
+```
+
+``` {.codeinput}
+
+```
+
+``` {.codeinput}
+
+```
+
+``` {.codeinput}
+
+```
+
+``` {.codeinput}
+
+```
+
+
 
 Quad Tree: reduce and expand through the Quad Tree
 
