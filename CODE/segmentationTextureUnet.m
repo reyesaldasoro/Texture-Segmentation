@@ -69,15 +69,12 @@ for currentCase                 = 6:9
         for caseEncoder =1:3
             switch caseEncoder
                 case 1
-                    dir_nets        = dir ('Network_Case_?A.mat');
                     typeEncoder     = 'sgdm';
                     nameEncoder     = '1';
                 case 2
-                    dir_nets        = dir ('Network_Case_?B.mat');
                     typeEncoder     = 'adam';
                     nameEncoder     = '2';
                 case 3
-                    dir_nets        = dir ('Network_Case_?C.mat');
                     typeEncoder     = 'rmsprop';
                     nameEncoder     = '3';
             end
@@ -106,7 +103,7 @@ for currentCase                 = 6:9
                             softmaxLayer()
                             pixelClassificationLayer()
                             ];
-                        nameLayers     = '10';
+                        nameLayers     = '15';
                     case 2
                         layers = [
                             imageInputLayer([32 32 1])
@@ -131,7 +128,7 @@ for currentCase                 = 6:9
                             pixelClassificationLayer()
                             ];
                         
-                        nameLayers     = '15';
+                        nameLayers     = '20';
                     case 3
                         layers = [
                             imageInputLayer([32 32 1])
@@ -156,7 +153,7 @@ for currentCase                 = 6:9
                             pixelClassificationLayer()
                             ];
                         
-                        nameLayers     = '20';
+                        nameLayers     = '20B';
                 end
                 
                 
