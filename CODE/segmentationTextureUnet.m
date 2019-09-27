@@ -29,7 +29,7 @@ clear resRanden stdsRanden meansRanden fname ind edge error*
 accuracy(3,9,3,4) = 0;
 %% Loop for training and segmentation
 % select one of the composite images of the randen cases, there are 9 images
-for currentCase                 = 6:9
+for currentCase                 = 1%6:9
     % dimensions of the data
     [rows,cols]                 = size(dataRanden{currentCase});
     numClasses                  = size(trainRanden{currentCase},3);
@@ -53,7 +53,7 @@ for currentCase                 = 6:9
     % as with the classNames. For randen examples, these vary 1-5, 1-16, 1-10
     labelIDs                    = (1:numClasses);
     pxds                        = pixelLabelDatastore(labelDir,classNames,labelIDs);
-    for numEpochsName=1:4
+    for numEpochsName=1%:4
         switch numEpochsName
             case 1
                 numEpochs       = 10;
@@ -66,7 +66,7 @@ for currentCase                 = 6:9
         end
         
         % try with different encoders
-        for caseEncoder =1:3
+        for caseEncoder =1%:3
             switch caseEncoder
                 case 1
                     typeEncoder     = 'sgdm';
@@ -83,7 +83,7 @@ for currentCase                 = 6:9
             numFilters                  = 64;
             filterSize                  = 3;
             
-            for numLayersNetwork =1:3
+            for numLayersNetwork =1%:3
                 switch numLayersNetwork
                     case 1
                         layers = [
@@ -167,7 +167,7 @@ for currentCase                 = 6:9
                 disp(nameNet)
                 net                 = trainNetwork(trainingData,layers,opts);
                 
-                save(nameNet,'net')
+                %save(nameNet,'net')
                 
                 %
                 C = semanticseg(uint8(dataRanden{currentCase}),net);
@@ -185,7 +185,7 @@ for currentCase                 = 6:9
                 %figure(10*counterOptions+currentCase)
                 %imagesc(result==maskRanden{currentCase})
                 accuracy(numLayersNetwork,currentCase,caseEncoder,numEpochsName)=sum(sum(result==maskRanden{currentCase}))/rows/cols;
-                save(strcat(dataSaveDir,'accuracy'),'accuracy')
+                %save(strcat(dataSaveDir,'accuracy'),'accuracy')
             end
         end
     end
