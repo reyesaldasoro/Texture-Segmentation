@@ -107,4 +107,4 @@ Current results are shown below.
 <img vspace="5" hspace="5" src="Figures\Fig6D.png" alt="">
 
 
-More details will be added once the paper is published.
+More details are described in the paper.
