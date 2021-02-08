@@ -13,7 +13,7 @@ Texture segmentation: an objective comparison between traditional and deep-learn
 
 <br />
 <h3>
-    Paper submitted to Applied Sciences
+    This paper has been published in Applied Sciences <a href="https://www.mdpi.com/2076-3417/9/18/3900">https://www.mdpi.com/2076-3417/9/18/3900</a>. If you find it useful, please cite accordingly.
 </h3>
 
 <h2>Abstract</h2>
